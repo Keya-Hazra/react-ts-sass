@@ -123,10 +123,15 @@ body {
   color: #fff; }
 
 .icon {
+  color: #fff;
   width: 30px;
   height: 30px; }
   .icon:hover {
+    color: #fff;
     cursor: pointer; }
+
+.gap-top {
+  margin-top: 20px; }
 
 
 /*# sourceMappingURL=/src.fc45d0fd.css.map */

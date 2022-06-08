@@ -77,7 +77,7 @@ const App = () => {
 
 	return (
 		<div>
-			<div className="container">
+			<div className="gap-top">
 				<div className="alignment">
 					<div>
 						<h1>Search</h1>
@@ -123,7 +123,7 @@ const App = () => {
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className="gap-top">
 				<TableContainer>
 					<Table>
 						<TableHead>
@@ -197,7 +197,9 @@ const App = () => {
 											</span>
 										</TableCell>
 										<TableCell>
-											<CustomIcon name="list" className="icon" />
+											<div className="icon">
+												<CustomIcon name="list" className="" />
+											</div>
 										</TableCell>
 									</TableRow>
 								</TableBody>

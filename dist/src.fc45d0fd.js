@@ -96999,7 +96999,7 @@ var App = function App() {
   };
 
   return react_1.default.createElement("div", null, react_1.default.createElement("div", {
-    className: "container"
+    className: "gap-top"
   }, react_1.default.createElement("div", {
     className: "alignment"
   }, react_1.default.createElement("div", null, react_1.default.createElement("h1", null, "Search"), react_1.default.createElement("form", {
@@ -97042,7 +97042,9 @@ var App = function App() {
     onClick: function onClick() {
       return handleFilter("");
     }
-  }, "Inactive")))), react_1.default.createElement("div", null, react_1.default.createElement(core_1.TableContainer, null, react_1.default.createElement(core_1.Table, null, react_1.default.createElement(core_1.TableHead, null, react_1.default.createElement(core_1.TableRow, null, react_1.default.createElement(core_1.TableCell, {
+  }, "Inactive")))), react_1.default.createElement("div", {
+    className: "gap-top"
+  }, react_1.default.createElement(core_1.TableContainer, null, react_1.default.createElement(core_1.Table, null, react_1.default.createElement(core_1.TableHead, null, react_1.default.createElement(core_1.TableRow, null, react_1.default.createElement(core_1.TableCell, {
     className: ""
   }, react_1.default.createElement("span", {
     className: "table-container-1"
@@ -97077,10 +97079,12 @@ var App = function App() {
       className: "table-container"
     }, item.address.street)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
       className: "table-container"
-    }, item.company.name)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement(icons_1.default, {
-      name: "list",
+    }, item.company.name)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("div", {
       className: "icon"
-    }))));
+    }, react_1.default.createElement(icons_1.default, {
+      name: "list",
+      className: ""
+    })))));
   })))));
 };
 

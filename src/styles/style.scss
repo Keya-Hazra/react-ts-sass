@@ -172,9 +172,14 @@ body {
 }
 
 .icon {
+	color: #fff;
 	width: 30px;
 	height: 30px;
 	&:hover {
+		color: #fff;
 		cursor: pointer;
 	}
+}
+.gap-top {
+	margin-top: 20px;
 }
