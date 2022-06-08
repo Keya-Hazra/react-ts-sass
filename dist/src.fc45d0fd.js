@@ -96727,8 +96727,3986 @@ var CustomIcon = function CustomIcon(props) {
 };
 
 exports.default = CustomIcon;
-},{"react":"node_modules/react/index.js","./User":"src/components/icons/User.tsx","./Add":"src/components/icons/Add.tsx","./Cross":"src/components/icons/Cross.tsx","./ArrowUp":"src/components/icons/ArrowUp.tsx","./ArrowDown":"src/components/icons/ArrowDown.tsx","./ArrowRight":"src/components/icons/ArrowRight.tsx","./ArrowLeft":"src/components/icons/ArrowLeft.tsx","./Mic":"src/components/icons/Mic.tsx","./VisibilityOn":"src/components/icons/VisibilityOn.tsx","./VisibilityOff":"src/components/icons/VisibilityOff.tsx","./Check":"src/components/icons/Check.tsx","./Menu":"src/components/icons/Menu.tsx","./CheckboxChecked":"src/components/icons/CheckboxChecked.tsx","./I":"src/components/icons/I.tsx","./ArrowCurved":"src/components/icons/ArrowCurved.tsx","./Preview":"src/components/icons/Preview.tsx","./List":"src/components/icons/List.tsx","./ArrowForward":"src/components/icons/ArrowForward.tsx","./Badge":"src/components/icons/Badge.tsx","./Dot":"src/components/icons/Dot.tsx","./Fb":"src/components/icons/Fb.tsx","./Twitter":"src/components/icons/Twitter.tsx","./Linkdin":"src/components/icons/Linkdin.tsx","./Insta":"src/components/icons/Insta.tsx","./Home":"src/components/icons/Home.tsx","./Grid":"src/components/icons/Grid.tsx","./Star":"src/components/icons/Star.tsx","./DotVertical":"src/components/icons/DotVertical.tsx","./Download":"src/components/icons/Download.tsx","./Print":"src/components/icons/Print.tsx","./Cached":"src/components/icons/Cached.tsx","./Plus":"src/components/icons/Plus.tsx","./Forward":"src/components/icons/Forward.tsx","./Search":"src/components/icons/Search.tsx","./Img":"src/components/icons/Img.tsx","./Checkbox":"src/components/icons/Checkbox.tsx","./Send":"src/components/icons/Send.tsx","./Email":"src/components/icons/Email.tsx","./Lock":"src/components/icons/Lock.tsx","./Square":"src/components/icons/Square.tsx","./Profile":"src/components/icons/Profile.tsx","./Edit":"src/components/icons/Edit.tsx","./Facebook":"src/components/icons/Facebook.tsx","./Linkedin":"src/components/icons/Linkedin.tsx","./Twitter2":"src/components/icons/Twitter2.tsx","./OutgoingPhone":"src/components/icons/OutgoingPhone.tsx","./Upload":"src/components/icons/Upload.tsx"}],"src/components/App.tsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./User":"src/components/icons/User.tsx","./Add":"src/components/icons/Add.tsx","./Cross":"src/components/icons/Cross.tsx","./ArrowUp":"src/components/icons/ArrowUp.tsx","./ArrowDown":"src/components/icons/ArrowDown.tsx","./ArrowRight":"src/components/icons/ArrowRight.tsx","./ArrowLeft":"src/components/icons/ArrowLeft.tsx","./Mic":"src/components/icons/Mic.tsx","./VisibilityOn":"src/components/icons/VisibilityOn.tsx","./VisibilityOff":"src/components/icons/VisibilityOff.tsx","./Check":"src/components/icons/Check.tsx","./Menu":"src/components/icons/Menu.tsx","./CheckboxChecked":"src/components/icons/CheckboxChecked.tsx","./I":"src/components/icons/I.tsx","./ArrowCurved":"src/components/icons/ArrowCurved.tsx","./Preview":"src/components/icons/Preview.tsx","./List":"src/components/icons/List.tsx","./ArrowForward":"src/components/icons/ArrowForward.tsx","./Badge":"src/components/icons/Badge.tsx","./Dot":"src/components/icons/Dot.tsx","./Fb":"src/components/icons/Fb.tsx","./Twitter":"src/components/icons/Twitter.tsx","./Linkdin":"src/components/icons/Linkdin.tsx","./Insta":"src/components/icons/Insta.tsx","./Home":"src/components/icons/Home.tsx","./Grid":"src/components/icons/Grid.tsx","./Star":"src/components/icons/Star.tsx","./DotVertical":"src/components/icons/DotVertical.tsx","./Download":"src/components/icons/Download.tsx","./Print":"src/components/icons/Print.tsx","./Cached":"src/components/icons/Cached.tsx","./Plus":"src/components/icons/Plus.tsx","./Forward":"src/components/icons/Forward.tsx","./Search":"src/components/icons/Search.tsx","./Img":"src/components/icons/Img.tsx","./Checkbox":"src/components/icons/Checkbox.tsx","./Send":"src/components/icons/Send.tsx","./Email":"src/components/icons/Email.tsx","./Lock":"src/components/icons/Lock.tsx","./Square":"src/components/icons/Square.tsx","./Profile":"src/components/icons/Profile.tsx","./Edit":"src/components/icons/Edit.tsx","./Facebook":"src/components/icons/Facebook.tsx","./Linkedin":"src/components/icons/Linkedin.tsx","./Twitter2":"src/components/icons/Twitter2.tsx","./OutgoingPhone":"src/components/icons/OutgoingPhone.tsx","./Upload":"src/components/icons/Upload.tsx"}],"node_modules/@babel/runtime/helpers/interopRequireDefault.js":[function(require,module,exports) {
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/typeof.js":[function(require,module,exports) {
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+
+  return (module.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(obj);
+}
+
+module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/classCallCheck.js":[function(require,module,exports) {
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+module.exports = _classCallCheck, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/createClass.js":[function(require,module,exports) {
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  Object.defineProperty(Constructor, "prototype", {
+    writable: false
+  });
+  return Constructor;
+}
+
+module.exports = _createClass, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/assertThisInitialized.js":[function(require,module,exports) {
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/setPrototypeOf.js":[function(require,module,exports) {
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/inherits.js":[function(require,module,exports) {
+var setPrototypeOf = require("./setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  Object.defineProperty(subClass, "prototype", {
+    writable: false
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./setPrototypeOf.js":"node_modules/@babel/runtime/helpers/setPrototypeOf.js"}],"node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":[function(require,module,exports) {
+var _typeof = require("./typeof.js")["default"];
+
+var assertThisInitialized = require("./assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  } else if (call !== void 0) {
+    throw new TypeError("Derived constructors may only return object or undefined");
+  }
+
+  return assertThisInitialized(self);
+}
+
+module.exports = _possibleConstructorReturn, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./typeof.js":"node_modules/@babel/runtime/helpers/typeof.js","./assertThisInitialized.js":"node_modules/@babel/runtime/helpers/assertThisInitialized.js"}],"node_modules/@babel/runtime/helpers/getPrototypeOf.js":[function(require,module,exports) {
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _getPrototypeOf(o);
+}
+
+module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/defineProperty.js":[function(require,module,exports) {
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/material-ui-popup-state/core.js":[function(require,module,exports) {
 "use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _typeof = require("@babel/runtime/helpers/typeof");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createPopupState = createPopupState;
+exports.anchorRef = anchorRef;
+exports.bindTrigger = bindTrigger;
+exports.bindContextMenu = bindContextMenu;
+exports.bindToggle = bindToggle;
+exports.bindHover = bindHover;
+exports.bindFocus = bindFocus;
+exports.bindPopover = bindPopover;
+exports.bindMenu = bindMenu;
+exports.bindPopper = bindPopper;
+exports.initCoreState = void 0;
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+var printedWarnings = {};
+
+function warn(key, message) {
+  if (printedWarnings[key]) return;
+  printedWarnings[key] = true;
+  console.error('[material-ui-popup-state] WARNING', message); // eslint-disable-line no-console
+}
+
+var initCoreState = {
+  isOpen: false,
+  setAnchorElUsed: false,
+  anchorEl: null,
+  hovered: false,
+  focused: false,
+  _childPopupState: null,
+  _deferNextOpen: false,
+  _deferNextClose: false
+};
+exports.initCoreState = initCoreState;
+
+function createPopupState(_ref) {
+  var state = _ref.state,
+      _setState = _ref.setState,
+      parentPopupState = _ref.parentPopupState,
+      popupId = _ref.popupId,
+      variant = _ref.variant,
+      disableAutoFocus = _ref.disableAutoFocus;
+  var isOpen = state.isOpen,
+      setAnchorElUsed = state.setAnchorElUsed,
+      anchorEl = state.anchorEl,
+      hovered = state.hovered,
+      focused = state.focused,
+      _childPopupState = state._childPopupState,
+      _deferNextOpen = state._deferNextOpen,
+      _deferNextClose = state._deferNextClose; // use lastState to workaround cases where setState is called multiple times
+  // in a single render (e.g. because of refs being called multiple times)
+
+  var lastState = state;
+
+  var setState = function setState(nextState) {
+    if (hasChanges(lastState, nextState)) {
+      _setState(lastState = _objectSpread(_objectSpread({}, lastState), nextState));
+    }
+  };
+
+  var setAnchorEl = function setAnchorEl(_anchorEl) {
+    setState({
+      setAnchorElUsed: true,
+      anchorEl: _anchorEl
+    });
+  };
+
+  var toggle = function toggle(eventOrAnchorEl) {
+    if (isOpen) close(eventOrAnchorEl);else open(eventOrAnchorEl);
+  };
+
+  var open = function open(eventOrAnchorEl) {
+    var eventType = eventOrAnchorEl && eventOrAnchorEl.type;
+    var currentTarget = eventOrAnchorEl && eventOrAnchorEl.currentTarget;
+
+    if (eventType === 'touchstart') {
+      setState({
+        _deferNextOpen: true
+      });
+      return;
+    }
+
+    var doOpen = function doOpen() {
+      if (!eventOrAnchorEl && !setAnchorElUsed) {
+        warn('missingEventOrAnchorEl', 'eventOrAnchorEl should be defined if setAnchorEl is not used');
+      }
+
+      if (parentPopupState) {
+        if (!parentPopupState.isOpen) return;
+
+        parentPopupState._setChildPopupState(popupState);
+      }
+
+      var newState = {
+        isOpen: true,
+        hovered: eventType === 'mouseover',
+        focused: eventType === 'focus'
+      };
+
+      if (currentTarget) {
+        if (!setAnchorElUsed) {
+          newState.anchorEl = currentTarget;
+        }
+      } else if (eventOrAnchorEl) {
+        newState.anchorEl = eventOrAnchorEl;
+      }
+
+      setState(newState);
+    };
+
+    if (_deferNextOpen) {
+      setState({
+        _deferNextOpen: false
+      });
+      setTimeout(doOpen, 0);
+    } else {
+      doOpen();
+    }
+  };
+
+  var close = function close(arg) {
+    var eventType = arg && arg.type;
+
+    switch (eventType) {
+      case 'touchstart':
+        setState({
+          _deferNextClose: true
+        });
+        return;
+
+      case 'blur':
+        if (isElementInPopup(arg === null || arg === void 0 ? void 0 : arg.relatedTarget, popupState)) return;
+        break;
+    }
+
+    var doClose = function doClose() {
+      if (_childPopupState) _childPopupState.close();
+      if (parentPopupState) parentPopupState._setChildPopupState(null);
+      setState({
+        isOpen: false,
+        hovered: false,
+        focused: false
+      });
+    };
+
+    if (_deferNextClose) {
+      setState({
+        _deferNextClose: false
+      });
+      setTimeout(doClose, 0);
+    } else {
+      doClose();
+    }
+  };
+
+  var setOpen = function setOpen(nextOpen, eventOrAnchorEl) {
+    if (nextOpen) {
+      open(eventOrAnchorEl);
+    } else close(eventOrAnchorEl);
+  };
+
+  var onMouseLeave = function onMouseLeave(event) {
+    var relatedTarget = event.relatedTarget;
+
+    if (hovered && !isElementInPopup(relatedTarget, popupState)) {
+      close(event);
+    }
+  };
+
+  var _setChildPopupState = function _setChildPopupState(_childPopupState) {
+    return setState({
+      _childPopupState: _childPopupState
+    });
+  };
+
+  var popupState = {
+    anchorEl: anchorEl,
+    setAnchorEl: setAnchorEl,
+    setAnchorElUsed: setAnchorElUsed,
+    popupId: popupId,
+    variant: variant,
+    isOpen: isOpen,
+    open: open,
+    close: close,
+    toggle: toggle,
+    setOpen: setOpen,
+    onMouseLeave: onMouseLeave,
+    disableAutoFocus: disableAutoFocus !== null && disableAutoFocus !== void 0 ? disableAutoFocus : Boolean(hovered || focused),
+    _childPopupState: _childPopupState,
+    _setChildPopupState: _setChildPopupState
+  };
+  return popupState;
+}
+/**
+ * Creates a ref that sets the anchorEl for the popup.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function anchorRef(_ref2) {
+  var setAnchorEl = _ref2.setAnchorEl;
+  return function (el) {
+    if (el) setAnchorEl(el);
+  };
+}
+/**
+ * Creates props for a component that opens the popup when clicked.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindTrigger(_ref3) {
+  var _ref4;
+
+  var isOpen = _ref3.isOpen,
+      open = _ref3.open,
+      popupId = _ref3.popupId,
+      variant = _ref3.variant;
+  return _ref4 = {}, (0, _defineProperty2["default"])(_ref4, variant === 'popover' ? 'aria-controls' : 'aria-describedby', isOpen ? popupId : null), (0, _defineProperty2["default"])(_ref4, 'aria-haspopup', variant === 'popover' ? true : undefined), (0, _defineProperty2["default"])(_ref4, "onClick", open), (0, _defineProperty2["default"])(_ref4, "onTouchStart", open), _ref4;
+}
+/**
+ * Creates props for a component that opens the popup on its contextmenu event (right click).
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindContextMenu(_ref5) {
+  var _ref6;
+
+  var isOpen = _ref5.isOpen,
+      open = _ref5.open,
+      popupId = _ref5.popupId,
+      variant = _ref5.variant;
+  return _ref6 = {}, (0, _defineProperty2["default"])(_ref6, variant === 'popover' ? 'aria-controls' : 'aria-describedby', isOpen ? popupId : null), (0, _defineProperty2["default"])(_ref6, 'aria-haspopup', variant === 'popover' ? true : undefined), (0, _defineProperty2["default"])(_ref6, "onContextMenu", function onContextMenu(e) {
+    e.preventDefault();
+    open(e);
+  }), _ref6;
+}
+/**
+ * Creates props for a component that toggles the popup when clicked.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindToggle(_ref7) {
+  var _ref8;
+
+  var isOpen = _ref7.isOpen,
+      toggle = _ref7.toggle,
+      popupId = _ref7.popupId,
+      variant = _ref7.variant;
+  return _ref8 = {}, (0, _defineProperty2["default"])(_ref8, variant === 'popover' ? 'aria-controls' : 'aria-describedby', isOpen ? popupId : null), (0, _defineProperty2["default"])(_ref8, 'aria-haspopup', variant === 'popover' ? true : undefined), (0, _defineProperty2["default"])(_ref8, "onClick", toggle), (0, _defineProperty2["default"])(_ref8, "onTouchStart", toggle), _ref8;
+}
+/**
+ * Creates props for a component that opens the popup while hovered.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindHover(_ref9) {
+  var _ref10;
+
+  var isOpen = _ref9.isOpen,
+      open = _ref9.open,
+      onMouseLeave = _ref9.onMouseLeave,
+      popupId = _ref9.popupId,
+      variant = _ref9.variant;
+  return _ref10 = {}, (0, _defineProperty2["default"])(_ref10, variant === 'popover' ? 'aria-controls' : 'aria-describedby', isOpen ? popupId : null), (0, _defineProperty2["default"])(_ref10, 'aria-haspopup', variant === 'popover' ? true : undefined), (0, _defineProperty2["default"])(_ref10, "onTouchStart", open), (0, _defineProperty2["default"])(_ref10, "onMouseOver", open), (0, _defineProperty2["default"])(_ref10, "onMouseLeave", onMouseLeave), _ref10;
+}
+/**
+ * Creates props for a component that opens the popup while focused.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindFocus(_ref11) {
+  var _ref12;
+
+  var isOpen = _ref11.isOpen,
+      open = _ref11.open,
+      close = _ref11.close,
+      popupId = _ref11.popupId,
+      variant = _ref11.variant;
+  return _ref12 = {}, (0, _defineProperty2["default"])(_ref12, variant === 'popover' ? 'aria-controls' : 'aria-describedby', isOpen ? popupId : null), (0, _defineProperty2["default"])(_ref12, 'aria-haspopup', variant === 'popover' ? true : undefined), (0, _defineProperty2["default"])(_ref12, "onFocus", open), (0, _defineProperty2["default"])(_ref12, "onBlur", close), _ref12;
+}
+/**
+ * Creates props for a `Popover` component.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindPopover(_ref13) {
+  var isOpen = _ref13.isOpen,
+      anchorEl = _ref13.anchorEl,
+      close = _ref13.close,
+      popupId = _ref13.popupId,
+      onMouseLeave = _ref13.onMouseLeave,
+      disableAutoFocus = _ref13.disableAutoFocus;
+  return _objectSpread({
+    id: popupId,
+    anchorEl: anchorEl,
+    open: isOpen,
+    onClose: close,
+    onMouseLeave: onMouseLeave
+  }, disableAutoFocus && {
+    disableAutoFocus: true,
+    disableEnforceFocus: true,
+    disableRestoreFocus: true
+  });
+}
+/**
+ * Creates props for a `Menu` component.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+/**
+ * Creates props for a `Popover` component.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindMenu(_ref14) {
+  var isOpen = _ref14.isOpen,
+      anchorEl = _ref14.anchorEl,
+      close = _ref14.close,
+      popupId = _ref14.popupId,
+      onMouseLeave = _ref14.onMouseLeave,
+      disableAutoFocus = _ref14.disableAutoFocus;
+  return _objectSpread({
+    id: popupId,
+    anchorEl: anchorEl,
+    open: isOpen,
+    onClose: close,
+    onMouseLeave: onMouseLeave
+  }, disableAutoFocus && {
+    autoFocus: false,
+    disableAutoFocusItem: true,
+    disableAutoFocus: true,
+    disableEnforceFocus: true,
+    disableRestoreFocus: true
+  });
+}
+/**
+ * Creates props for a `Popper` component.
+ *
+ * @param {object} popupState the argument passed to the child function of
+ * `PopupState`
+ */
+
+
+function bindPopper(_ref15) {
+  var isOpen = _ref15.isOpen,
+      anchorEl = _ref15.anchorEl,
+      popupId = _ref15.popupId,
+      onMouseLeave = _ref15.onMouseLeave;
+  return {
+    id: popupId,
+    anchorEl: anchorEl,
+    open: isOpen,
+    onMouseLeave: onMouseLeave
+  };
+}
+
+function getPopup(_ref16) {
+  var popupId = _ref16.popupId;
+  return popupId && typeof document !== 'undefined' ? document.getElementById(popupId) // eslint-disable-line no-undef
+  : null;
+}
+
+function isElementInPopup(element, popupState) {
+  var anchorEl = popupState.anchorEl,
+      _childPopupState = popupState._childPopupState;
+  return isAncestor(anchorEl, element) || isAncestor(getPopup(popupState), element) || _childPopupState != null && isElementInPopup(element, _childPopupState);
+}
+
+function isAncestor(parent, child) {
+  if (!parent) return false;
+
+  while (child) {
+    if (child === parent) return true;
+    child = child.parentElement;
+  }
+
+  return false;
+}
+
+function hasChanges(state, nextState) {
+  for (var key in nextState) {
+    if (Object.prototype.hasOwnProperty.call(state, key) && state[key] !== nextState[key]) {
+      return true;
+    }
+  }
+
+  return false;
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/typeof":"node_modules/@babel/runtime/helpers/typeof.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js"}],"node_modules/material-ui-popup-state/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _typeof3 = require("@babel/runtime/helpers/typeof");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "anchorRef", {
+  enumerable: true,
+  get: function get() {
+    return _core.anchorRef;
+  }
+});
+Object.defineProperty(exports, "bindTrigger", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindTrigger;
+  }
+});
+Object.defineProperty(exports, "bindContextMenu", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindContextMenu;
+  }
+});
+Object.defineProperty(exports, "bindToggle", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindToggle;
+  }
+});
+Object.defineProperty(exports, "bindHover", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindHover;
+  }
+});
+Object.defineProperty(exports, "bindFocus", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindFocus;
+  }
+});
+Object.defineProperty(exports, "bindMenu", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindMenu;
+  }
+});
+Object.defineProperty(exports, "bindPopover", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindPopover;
+  }
+});
+Object.defineProperty(exports, "bindPopper", {
+  enumerable: true,
+  get: function get() {
+    return _core.bindPopper;
+  }
+});
+exports["default"] = void 0;
+
+var _typeof2 = _interopRequireDefault(require("@babel/runtime/helpers/typeof"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _core = require("./core");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof3(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+var PopupState = /*#__PURE__*/function (_React$Component) {
+  (0, _inherits2["default"])(PopupState, _React$Component);
+
+  var _super = _createSuper(PopupState);
+
+  function PopupState() {
+    var _this;
+
+    (0, _classCallCheck2["default"])(this, PopupState);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+    (0, _defineProperty2["default"])((0, _assertThisInitialized2["default"])(_this), "state", _core.initCoreState);
+    (0, _defineProperty2["default"])((0, _assertThisInitialized2["default"])(_this), "_mounted", true);
+    (0, _defineProperty2["default"])((0, _assertThisInitialized2["default"])(_this), "_setStateIfMounted", function (state) {
+      if (_this._mounted) _this.setState(state);
+    });
+    return _this;
+  }
+
+  (0, _createClass2["default"])(PopupState, [{
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this._mounted = false;
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps, prevState) {
+      var _this$props = this.props,
+          popupId = _this$props.popupId,
+          disableAutoFocus = _this$props.disableAutoFocus;
+
+      if (!disableAutoFocus && (typeof document === "undefined" ? "undefined" : (0, _typeof2["default"])(document)) === 'object' && popupId && (popupId !== prevProps.popupId || this.state.anchorEl !== prevState.anchorEl)) {
+        var popup = document.getElementById(popupId);
+        if (popup) popup.focus();
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props2 = this.props,
+          children = _this$props2.children,
+          popupId = _this$props2.popupId,
+          variant = _this$props2.variant,
+          parentPopupState = _this$props2.parentPopupState,
+          disableAutoFocus = _this$props2.disableAutoFocus;
+      var popupState = (0, _core.createPopupState)({
+        state: this.state,
+        setState: this._setStateIfMounted,
+        popupId: popupId,
+        variant: variant,
+        parentPopupState: parentPopupState,
+        disableAutoFocus: disableAutoFocus
+      });
+      var result = children(popupState);
+      if (result == null) return null;
+      return result;
+    }
+  }]);
+  return PopupState;
+}(React.Component);
+
+exports["default"] = PopupState;
+(0, _defineProperty2["default"])(PopupState, "propTypes", {
+  /**
+   * The render function.
+   *
+   * @param {object} props the properties injected by `PopupState`:
+   * <ul>
+   *   <li>`open(eventOrAnchorEl)`: opens the popup</li>
+   *   <li>`close()`: closes the popup</li>
+   *   <li>`toggle(eventOrAnchorEl)`: opens the popup if it is closed, or
+   *     closes the popup if it is open.
+   *   </li>
+   *   <li>`setOpen(open, [eventOrAnchorEl])`: sets whether the popup is open.
+   *     `eventOrAnchorEl` is required if `open` is truthy.
+   *   </li>
+   *   <li>`isOpen`: `true`/`false` if the popup is open/closed</li>
+   *   <li>`anchorEl`: the current anchor element (`null` the popup is closed)</li>
+   *   <li>`popupId`: the `popupId` prop you passed</li>
+   * </ul>
+   *
+   * @returns {React.Node} the content to display
+   */
+  children: _propTypes["default"].func.isRequired,
+
+  /**
+   * The `id` property to use for the popup.  Will be passed to the render
+   * function as `bindPopup.id`, and also used for the `aria-controls` property
+   * passed to the trigger component via `bindTrigger`.
+   */
+  popupId: _propTypes["default"].string,
+
+  /**
+   * Which type of popup you are controlling.  Use `'popover'` for `Popover`
+   * and `Menu`; use `'popper'` for `Popper`s.  Right now this only affects
+   * whether `aria-controls` or `aria-describedby` is used on the trigger
+   * component.
+   */
+  variant: _propTypes["default"].oneOf(['popover', 'popper']).isRequired,
+
+  /**
+   * The popupState of the parent menu (for cascading menus)
+   */
+  parentPopupState: _propTypes["default"].object,
+
+  /**
+   * Will focus the popup when it opens unless disableAutoFocus is explicitly false.
+   */
+  disableAutoFocus: _propTypes["default"].bool
+});
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/typeof":"node_modules/@babel/runtime/helpers/typeof.js","@babel/runtime/helpers/classCallCheck":"node_modules/@babel/runtime/helpers/classCallCheck.js","@babel/runtime/helpers/createClass":"node_modules/@babel/runtime/helpers/createClass.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/inherits":"node_modules/@babel/runtime/helpers/inherits.js","@babel/runtime/helpers/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/possibleConstructorReturn.js","@babel/runtime/helpers/getPrototypeOf":"node_modules/@babel/runtime/helpers/getPrototypeOf.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","./core":"node_modules/material-ui-popup-state/core.js"}],"src/config/index.ts":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AppTitle = exports.CustomApi = exports.API_ENDPOINT_LAMBDA = void 0;
+
+var axios_1 = __importDefault(require("axios"));
+
+exports.API_ENDPOINT_LAMBDA = "https://jsonplaceholder.typicode.com";
+exports.CustomApi = axios_1.default.create({
+  baseURL: exports.API_ENDPOINT_LAMBDA,
+  headers: {
+    "Content-type": "application/json"
+  }
+});
+exports.AppTitle = "Assessment";
+},{"axios":"node_modules/axios/index.js"}],"node_modules/@babel/runtime/helpers/interopRequireWildcard.js":[function(require,module,exports) {
+var _typeof = require("./typeof.js")["default"];
+
+function _getRequireWildcardCache(nodeInterop) {
+  if (typeof WeakMap !== "function") return null;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
+}
+
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+    return {
+      "default": obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache(nodeInterop);
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj["default"] = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+module.exports = _interopRequireWildcard, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./typeof.js":"node_modules/@babel/runtime/helpers/typeof.js"}],"node_modules/@babel/runtime/helpers/extends.js":[function(require,module,exports) {
+function _extends() {
+  module.exports = _extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/arrayWithHoles.js":[function(require,module,exports) {
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+module.exports = _arrayWithHoles, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":[function(require,module,exports) {
+function _iterableToArrayLimit(arr, i) {
+  var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+
+  if (_i == null) return;
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+
+  var _s, _e;
+
+  try {
+    for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/arrayLikeToArray.js":[function(require,module,exports) {
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js":[function(require,module,exports) {
+var arrayLikeToArray = require("./arrayLikeToArray.js");
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);
+}
+
+module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./arrayLikeToArray.js":"node_modules/@babel/runtime/helpers/arrayLikeToArray.js"}],"node_modules/@babel/runtime/helpers/nonIterableRest.js":[function(require,module,exports) {
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+module.exports = _nonIterableRest, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/slicedToArray.js":[function(require,module,exports) {
+var arrayWithHoles = require("./arrayWithHoles.js");
+
+var iterableToArrayLimit = require("./iterableToArrayLimit.js");
+
+var unsupportedIterableToArray = require("./unsupportedIterableToArray.js");
+
+var nonIterableRest = require("./nonIterableRest.js");
+
+function _slicedToArray(arr, i) {
+  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();
+}
+
+module.exports = _slicedToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./arrayWithHoles.js":"node_modules/@babel/runtime/helpers/arrayWithHoles.js","./iterableToArrayLimit.js":"node_modules/@babel/runtime/helpers/iterableToArrayLimit.js","./unsupportedIterableToArray.js":"node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js","./nonIterableRest.js":"node_modules/@babel/runtime/helpers/nonIterableRest.js"}],"node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":[function(require,module,exports) {
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/objectWithoutProperties.js":[function(require,module,exports) {
+var objectWithoutPropertiesLoose = require("./objectWithoutPropertiesLoose.js");
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = objectWithoutPropertiesLoose(source, excluded);
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+module.exports = _objectWithoutProperties, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./objectWithoutPropertiesLoose.js":"node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"}],"node_modules/@material-ui/core/styles/transitions.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.duration = exports.easing = void 0;
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties")); // Follow https://material.google.com/motion/duration-easing.html#duration-easing-natural-easing-curves
+// to learn the context in which each easing should be used.
+
+
+var easing = {
+  // This is the most common easing curve.
+  easeInOut: 'cubic-bezier(0.4, 0, 0.2, 1)',
+  // Objects enter the screen at full velocity from off-screen and
+  // slowly decelerate to a resting point.
+  easeOut: 'cubic-bezier(0.0, 0, 0.2, 1)',
+  // Objects leave the screen at full velocity. They do not decelerate when off-screen.
+  easeIn: 'cubic-bezier(0.4, 0, 1, 1)',
+  // The sharp curve is used by objects that may return to the screen at any time.
+  sharp: 'cubic-bezier(0.4, 0, 0.6, 1)'
+}; // Follow https://material.io/guidelines/motion/duration-easing.html#duration-easing-common-durations
+// to learn when use what timing
+
+exports.easing = easing;
+var duration = {
+  shortest: 150,
+  shorter: 200,
+  short: 250,
+  // most basic recommended timing
+  standard: 300,
+  // this is to be used in complex animations
+  complex: 375,
+  // recommended when something is entering screen
+  enteringScreen: 225,
+  // recommended when something is leaving screen
+  leavingScreen: 195
+};
+exports.duration = duration;
+
+function formatMs(milliseconds) {
+  return "".concat(Math.round(milliseconds), "ms");
+}
+/**
+ * @param {string|Array} props
+ * @param {object} param
+ * @param {string} param.prop
+ * @param {number} param.duration
+ * @param {string} param.easing
+ * @param {number} param.delay
+ */
+
+
+var _default = {
+  easing: easing,
+  duration: duration,
+  create: function create() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : ['all'];
+    var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var _options$duration = options.duration,
+        durationOption = _options$duration === void 0 ? duration.standard : _options$duration,
+        _options$easing = options.easing,
+        easingOption = _options$easing === void 0 ? easing.easeInOut : _options$easing,
+        _options$delay = options.delay,
+        delay = _options$delay === void 0 ? 0 : _options$delay,
+        other = (0, _objectWithoutProperties2.default)(options, ["duration", "easing", "delay"]);
+
+    if ("development" !== 'production') {
+      var isString = function isString(value) {
+        return typeof value === 'string';
+      };
+
+      var isNumber = function isNumber(value) {
+        return !isNaN(parseFloat(value));
+      };
+
+      if (!isString(props) && !Array.isArray(props)) {
+        console.error('Material-UI: Argument "props" must be a string or Array.');
+      }
+
+      if (!isNumber(durationOption) && !isString(durationOption)) {
+        console.error("Material-UI: Argument \"duration\" must be a number or a string but found ".concat(durationOption, "."));
+      }
+
+      if (!isString(easingOption)) {
+        console.error('Material-UI: Argument "easing" must be a string.');
+      }
+
+      if (!isNumber(delay) && !isString(delay)) {
+        console.error('Material-UI: Argument "delay" must be a number or a string.');
+      }
+
+      if (Object.keys(other).length !== 0) {
+        console.error("Material-UI: Unrecognized argument(s) [".concat(Object.keys(other).join(','), "]."));
+      }
+    }
+
+    return (Array.isArray(props) ? props : [props]).map(function (animatedProp) {
+      return "".concat(animatedProp, " ").concat(typeof durationOption === 'string' ? durationOption : formatMs(durationOption), " ").concat(easingOption, " ").concat(typeof delay === 'string' ? delay : formatMs(delay));
+    }).join(',');
+  },
+  getAutoHeightDuration: function getAutoHeightDuration(height) {
+    if (!height) {
+      return 0;
+    }
+
+    var constant = height / 36; // https://www.wolframalpha.com/input/?i=(4+%2B+15+*+(x+%2F+36+)+**+0.25+%2B+(x+%2F+36)+%2F+5)+*+10
+
+    return Math.round((4 + 15 * Math.pow(constant, 0.25) + constant / 5) * 10);
+  }
+};
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js"}],"node_modules/@material-ui/core/styles/createBreakpoints.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createBreakpoints;
+exports.keys = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties")); // Sorted ASC by size. That's important.
+// It can't be configured as it's used statically for propTypes.
+
+
+var keys = ['xs', 'sm', 'md', 'lg', 'xl']; // Keep in mind that @media is inclusive by the CSS specification.
+
+exports.keys = keys;
+
+function createBreakpoints(breakpoints) {
+  var _breakpoints$values = breakpoints.values,
+      values = _breakpoints$values === void 0 ? {
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920
+  } : _breakpoints$values,
+      _breakpoints$unit = breakpoints.unit,
+      unit = _breakpoints$unit === void 0 ? 'px' : _breakpoints$unit,
+      _breakpoints$step = breakpoints.step,
+      step = _breakpoints$step === void 0 ? 5 : _breakpoints$step,
+      other = (0, _objectWithoutProperties2.default)(breakpoints, ["values", "unit", "step"]);
+
+  function up(key) {
+    var value = typeof values[key] === 'number' ? values[key] : key;
+    return "@media (min-width:".concat(value).concat(unit, ")");
+  }
+
+  function down(key) {
+    var endIndex = keys.indexOf(key) + 1;
+    var upperbound = values[keys[endIndex]];
+
+    if (endIndex === keys.length) {
+      // xl down applies to all sizes
+      return up('xs');
+    }
+
+    var value = typeof upperbound === 'number' && endIndex > 0 ? upperbound : key;
+    return "@media (max-width:".concat(value - step / 100).concat(unit, ")");
+  }
+
+  function between(start, end) {
+    var endIndex = keys.indexOf(end);
+
+    if (endIndex === keys.length - 1) {
+      return up(start);
+    }
+
+    return "@media (min-width:".concat(typeof values[start] === 'number' ? values[start] : start).concat(unit, ") and ") + "(max-width:".concat((endIndex !== -1 && typeof values[keys[endIndex + 1]] === 'number' ? values[keys[endIndex + 1]] : end) - step / 100).concat(unit, ")");
+  }
+
+  function only(key) {
+    return between(key, key);
+  }
+
+  var warnedOnce = false;
+
+  function width(key) {
+    if ("development" !== 'production') {
+      if (!warnedOnce) {
+        warnedOnce = true;
+        console.warn(["Material-UI: The `theme.breakpoints.width` utility is deprecated because it's redundant.", 'Use the `theme.breakpoints.values` instead.'].join('\n'));
+      }
+    }
+
+    return values[key];
+  }
+
+  return (0, _extends2.default)({
+    keys: keys,
+    values: values,
+    up: up,
+    down: down,
+    between: between,
+    only: only,
+    width: width
+  }, other);
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js"}],"node_modules/@material-ui/core/styles/createMixins.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createMixins;
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var _extends3 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+function createMixins(breakpoints, spacing, mixins) {
+  var _toolbar;
+
+  return (0, _extends3.default)({
+    gutters: function gutters() {
+      var styles = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      console.warn(['Material-UI: theme.mixins.gutters() is deprecated.', 'You can use the source of the mixin directly:', "\n      paddingLeft: theme.spacing(2),\n      paddingRight: theme.spacing(2),\n      [theme.breakpoints.up('sm')]: {\n        paddingLeft: theme.spacing(3),\n        paddingRight: theme.spacing(3),\n      },\n      "].join('\n'));
+      return (0, _extends3.default)({
+        paddingLeft: spacing(2),
+        paddingRight: spacing(2)
+      }, styles, (0, _defineProperty2.default)({}, breakpoints.up('sm'), (0, _extends3.default)({
+        paddingLeft: spacing(3),
+        paddingRight: spacing(3)
+      }, styles[breakpoints.up('sm')])));
+    },
+    toolbar: (_toolbar = {
+      minHeight: 56
+    }, (0, _defineProperty2.default)(_toolbar, "".concat(breakpoints.up('xs'), " and (orientation: landscape)"), {
+      minHeight: 48
+    }), (0, _defineProperty2.default)(_toolbar, breakpoints.up('sm'), {
+      minHeight: 64
+    }), _toolbar)
+  }, mixins);
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js"}],"node_modules/@material-ui/core/colors/common.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var common = {
+  black: '#000',
+  white: '#fff'
+};
+var _default = common;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/grey.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var grey = {
+  50: '#fafafa',
+  100: '#f5f5f5',
+  200: '#eeeeee',
+  300: '#e0e0e0',
+  400: '#bdbdbd',
+  500: '#9e9e9e',
+  600: '#757575',
+  700: '#616161',
+  800: '#424242',
+  900: '#212121',
+  A100: '#d5d5d5',
+  A200: '#aaaaaa',
+  A400: '#303030',
+  A700: '#616161'
+};
+var _default = grey;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/indigo.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var indigo = {
+  50: '#e8eaf6',
+  100: '#c5cae9',
+  200: '#9fa8da',
+  300: '#7986cb',
+  400: '#5c6bc0',
+  500: '#3f51b5',
+  600: '#3949ab',
+  700: '#303f9f',
+  800: '#283593',
+  900: '#1a237e',
+  A100: '#8c9eff',
+  A200: '#536dfe',
+  A400: '#3d5afe',
+  A700: '#304ffe'
+};
+var _default = indigo;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/pink.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var pink = {
+  50: '#fce4ec',
+  100: '#f8bbd0',
+  200: '#f48fb1',
+  300: '#f06292',
+  400: '#ec407a',
+  500: '#e91e63',
+  600: '#d81b60',
+  700: '#c2185b',
+  800: '#ad1457',
+  900: '#880e4f',
+  A100: '#ff80ab',
+  A200: '#ff4081',
+  A400: '#f50057',
+  A700: '#c51162'
+};
+var _default = pink;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/red.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var red = {
+  50: '#ffebee',
+  100: '#ffcdd2',
+  200: '#ef9a9a',
+  300: '#e57373',
+  400: '#ef5350',
+  500: '#f44336',
+  600: '#e53935',
+  700: '#d32f2f',
+  800: '#c62828',
+  900: '#b71c1c',
+  A100: '#ff8a80',
+  A200: '#ff5252',
+  A400: '#ff1744',
+  A700: '#d50000'
+};
+var _default = red;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/orange.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var orange = {
+  50: '#fff3e0',
+  100: '#ffe0b2',
+  200: '#ffcc80',
+  300: '#ffb74d',
+  400: '#ffa726',
+  500: '#ff9800',
+  600: '#fb8c00',
+  700: '#f57c00',
+  800: '#ef6c00',
+  900: '#e65100',
+  A100: '#ffd180',
+  A200: '#ffab40',
+  A400: '#ff9100',
+  A700: '#ff6d00'
+};
+var _default = orange;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/blue.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var blue = {
+  50: '#e3f2fd',
+  100: '#bbdefb',
+  200: '#90caf9',
+  300: '#64b5f6',
+  400: '#42a5f5',
+  500: '#2196f3',
+  600: '#1e88e5',
+  700: '#1976d2',
+  800: '#1565c0',
+  900: '#0d47a1',
+  A100: '#82b1ff',
+  A200: '#448aff',
+  A400: '#2979ff',
+  A700: '#2962ff'
+};
+var _default = blue;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/colors/green.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var green = {
+  50: '#e8f5e9',
+  100: '#c8e6c9',
+  200: '#a5d6a7',
+  300: '#81c784',
+  400: '#66bb6a',
+  500: '#4caf50',
+  600: '#43a047',
+  700: '#388e3c',
+  800: '#2e7d32',
+  900: '#1b5e20',
+  A100: '#b9f6ca',
+  A200: '#69f0ae',
+  A400: '#00e676',
+  A700: '#00c853'
+};
+var _default = green;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/styles/colorManipulator.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.hexToRgb = hexToRgb;
+exports.rgbToHex = rgbToHex;
+exports.hslToRgb = hslToRgb;
+exports.decomposeColor = decomposeColor;
+exports.recomposeColor = recomposeColor;
+exports.getContrastRatio = getContrastRatio;
+exports.getLuminance = getLuminance;
+exports.emphasize = emphasize;
+exports.fade = fade;
+exports.alpha = alpha;
+exports.darken = darken;
+exports.lighten = lighten;
+
+var _utils = require("@material-ui/utils");
+/* eslint-disable no-use-before-define */
+
+/**
+ * Returns a number whose value is limited to the given range.
+ *
+ * @param {number} value The value to be clamped
+ * @param {number} min The lower boundary of the output range
+ * @param {number} max The upper boundary of the output range
+ * @returns {number} A number in the range [min, max]
+ */
+
+
+function clamp(value) {
+  var min = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+  var max = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
+
+  if ("development" !== 'production') {
+    if (value < min || value > max) {
+      console.error("Material-UI: The value provided ".concat(value, " is out of range [").concat(min, ", ").concat(max, "]."));
+    }
+  }
+
+  return Math.min(Math.max(min, value), max);
+}
+/**
+ * Converts a color from CSS hex format to CSS rgb format.
+ *
+ * @param {string} color - Hex color, i.e. #nnn or #nnnnnn
+ * @returns {string} A CSS rgb color string
+ */
+
+
+function hexToRgb(color) {
+  color = color.substr(1);
+  var re = new RegExp(".{1,".concat(color.length >= 6 ? 2 : 1, "}"), 'g');
+  var colors = color.match(re);
+
+  if (colors && colors[0].length === 1) {
+    colors = colors.map(function (n) {
+      return n + n;
+    });
+  }
+
+  return colors ? "rgb".concat(colors.length === 4 ? 'a' : '', "(").concat(colors.map(function (n, index) {
+    return index < 3 ? parseInt(n, 16) : Math.round(parseInt(n, 16) / 255 * 1000) / 1000;
+  }).join(', '), ")") : '';
+}
+
+function intToHex(int) {
+  var hex = int.toString(16);
+  return hex.length === 1 ? "0".concat(hex) : hex;
+}
+/**
+ * Converts a color from CSS rgb format to CSS hex format.
+ *
+ * @param {string} color - RGB color, i.e. rgb(n, n, n)
+ * @returns {string} A CSS rgb color string, i.e. #nnnnnn
+ */
+
+
+function rgbToHex(color) {
+  // Idempotent
+  if (color.indexOf('#') === 0) {
+    return color;
+  }
+
+  var _decomposeColor = decomposeColor(color),
+      values = _decomposeColor.values;
+
+  return "#".concat(values.map(function (n) {
+    return intToHex(n);
+  }).join(''));
+}
+/**
+ * Converts a color from hsl format to rgb format.
+ *
+ * @param {string} color - HSL color values
+ * @returns {string} rgb color values
+ */
+
+
+function hslToRgb(color) {
+  color = decomposeColor(color);
+  var _color = color,
+      values = _color.values;
+  var h = values[0];
+  var s = values[1] / 100;
+  var l = values[2] / 100;
+  var a = s * Math.min(l, 1 - l);
+
+  var f = function f(n) {
+    var k = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (n + h / 30) % 12;
+    return l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+  };
+
+  var type = 'rgb';
+  var rgb = [Math.round(f(0) * 255), Math.round(f(8) * 255), Math.round(f(4) * 255)];
+
+  if (color.type === 'hsla') {
+    type += 'a';
+    rgb.push(values[3]);
+  }
+
+  return recomposeColor({
+    type: type,
+    values: rgb
+  });
+}
+/**
+ * Returns an object with the type and values of a color.
+ *
+ * Note: Does not support rgb % values.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @returns {object} - A MUI color object: {type: string, values: number[]}
+ */
+
+
+function decomposeColor(color) {
+  // Idempotent
+  if (color.type) {
+    return color;
+  }
+
+  if (color.charAt(0) === '#') {
+    return decomposeColor(hexToRgb(color));
+  }
+
+  var marker = color.indexOf('(');
+  var type = color.substring(0, marker);
+
+  if (['rgb', 'rgba', 'hsl', 'hsla'].indexOf(type) === -1) {
+    throw new Error("development" !== "production" ? "Material-UI: Unsupported `".concat(color, "` color.\nWe support the following formats: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla().") : (0, _utils.formatMuiErrorMessage)(3, color));
+  }
+
+  var values = color.substring(marker + 1, color.length - 1).split(',');
+  values = values.map(function (value) {
+    return parseFloat(value);
+  });
+  return {
+    type: type,
+    values: values
+  };
+}
+/**
+ * Converts a color object with type and values to a string.
+ *
+ * @param {object} color - Decomposed color
+ * @param {string} color.type - One of: 'rgb', 'rgba', 'hsl', 'hsla'
+ * @param {array} color.values - [n,n,n] or [n,n,n,n]
+ * @returns {string} A CSS color string
+ */
+
+
+function recomposeColor(color) {
+  var type = color.type;
+  var values = color.values;
+
+  if (type.indexOf('rgb') !== -1) {
+    // Only convert the first 3 values to int (i.e. not alpha)
+    values = values.map(function (n, i) {
+      return i < 3 ? parseInt(n, 10) : n;
+    });
+  } else if (type.indexOf('hsl') !== -1) {
+    values[1] = "".concat(values[1], "%");
+    values[2] = "".concat(values[2], "%");
+  }
+
+  return "".concat(type, "(").concat(values.join(', '), ")");
+}
+/**
+ * Calculates the contrast ratio between two colors.
+ *
+ * Formula: https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests
+ *
+ * @param {string} foreground - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {string} background - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @returns {number} A contrast ratio value in the range 0 - 21.
+ */
+
+
+function getContrastRatio(foreground, background) {
+  var lumA = getLuminance(foreground);
+  var lumB = getLuminance(background);
+  return (Math.max(lumA, lumB) + 0.05) / (Math.min(lumA, lumB) + 0.05);
+}
+/**
+ * The relative brightness of any point in a color space,
+ * normalized to 0 for darkest black and 1 for lightest white.
+ *
+ * Formula: https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @returns {number} The relative brightness of the color in the range 0 - 1
+ */
+
+
+function getLuminance(color) {
+  color = decomposeColor(color);
+  var rgb = color.type === 'hsl' ? decomposeColor(hslToRgb(color)).values : color.values;
+  rgb = rgb.map(function (val) {
+    val /= 255; // normalized
+
+    return val <= 0.03928 ? val / 12.92 : Math.pow((val + 0.055) / 1.055, 2.4);
+  }); // Truncate at 3 digits
+
+  return Number((0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]).toFixed(3));
+}
+/**
+ * Darken or lighten a color, depending on its luminance.
+ * Light colors are darkened, dark colors are lightened.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {number} coefficient=0.15 - multiplier in the range 0 - 1
+ * @returns {string} A CSS color string. Hex input values are returned as rgb
+ */
+
+
+function emphasize(color) {
+  var coefficient = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0.15;
+  return getLuminance(color) > 0.5 ? darken(color, coefficient) : lighten(color, coefficient);
+}
+
+var warnedOnce = false;
+/**
+ * Set the absolute transparency of a color.
+ * Any existing alpha values are overwritten.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {number} value - value to set the alpha channel to in the range 0 -1
+ * @returns {string} A CSS color string. Hex input values are returned as rgb
+ *
+ * @deprecated
+ * Use `import { alpha } from '@material-ui/core/styles'` instead.
+ */
+
+function fade(color, value) {
+  if ("development" !== 'production') {
+    if (!warnedOnce) {
+      warnedOnce = true;
+      console.error(['Material-UI: The `fade` color utility was renamed to `alpha` to better describe its functionality.', '', "You should use `import { alpha } from '@material-ui/core/styles'`"].join('\n'));
+    }
+  }
+
+  return alpha(color, value);
+}
+/**
+ * Set the absolute transparency of a color.
+ * Any existing alpha value is overwritten.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {number} value - value to set the alpha channel to in the range 0-1
+ * @returns {string} A CSS color string. Hex input values are returned as rgb
+ */
+
+
+function alpha(color, value) {
+  color = decomposeColor(color);
+  value = clamp(value);
+
+  if (color.type === 'rgb' || color.type === 'hsl') {
+    color.type += 'a';
+  }
+
+  color.values[3] = value;
+  return recomposeColor(color);
+}
+/**
+ * Darkens a color.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {number} coefficient - multiplier in the range 0 - 1
+ * @returns {string} A CSS color string. Hex input values are returned as rgb
+ */
+
+
+function darken(color, coefficient) {
+  color = decomposeColor(color);
+  coefficient = clamp(coefficient);
+
+  if (color.type.indexOf('hsl') !== -1) {
+    color.values[2] *= 1 - coefficient;
+  } else if (color.type.indexOf('rgb') !== -1) {
+    for (var i = 0; i < 3; i += 1) {
+      color.values[i] *= 1 - coefficient;
+    }
+  }
+
+  return recomposeColor(color);
+}
+/**
+ * Lightens a color.
+ *
+ * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
+ * @param {number} coefficient - multiplier in the range 0 - 1
+ * @returns {string} A CSS color string. Hex input values are returned as rgb
+ */
+
+
+function lighten(color, coefficient) {
+  color = decomposeColor(color);
+  coefficient = clamp(coefficient);
+
+  if (color.type.indexOf('hsl') !== -1) {
+    color.values[2] += (100 - color.values[2]) * coefficient;
+  } else if (color.type.indexOf('rgb') !== -1) {
+    for (var i = 0; i < 3; i += 1) {
+      color.values[i] += (255 - color.values[i]) * coefficient;
+    }
+  }
+
+  return recomposeColor(color);
+}
+},{"@material-ui/utils":"node_modules/@material-ui/utils/esm/index.js"}],"node_modules/@material-ui/core/styles/createPalette.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createPalette;
+exports.dark = exports.light = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _utils = require("@material-ui/utils");
+
+var _common = _interopRequireDefault(require("../colors/common"));
+
+var _grey = _interopRequireDefault(require("../colors/grey"));
+
+var _indigo = _interopRequireDefault(require("../colors/indigo"));
+
+var _pink = _interopRequireDefault(require("../colors/pink"));
+
+var _red = _interopRequireDefault(require("../colors/red"));
+
+var _orange = _interopRequireDefault(require("../colors/orange"));
+
+var _blue = _interopRequireDefault(require("../colors/blue"));
+
+var _green = _interopRequireDefault(require("../colors/green"));
+
+var _colorManipulator = require("./colorManipulator");
+
+var light = {
+  // The colors used to style the text.
+  text: {
+    // The most important text.
+    primary: 'rgba(0, 0, 0, 0.87)',
+    // Secondary text.
+    secondary: 'rgba(0, 0, 0, 0.54)',
+    // Disabled text have even lower visual prominence.
+    disabled: 'rgba(0, 0, 0, 0.38)',
+    // Text hints.
+    hint: 'rgba(0, 0, 0, 0.38)'
+  },
+  // The color used to divide different elements.
+  divider: 'rgba(0, 0, 0, 0.12)',
+  // The background colors used to style the surfaces.
+  // Consistency between these values is important.
+  background: {
+    paper: _common.default.white,
+    default: _grey.default[50]
+  },
+  // The colors used to style the action elements.
+  action: {
+    // The color of an active action like an icon button.
+    active: 'rgba(0, 0, 0, 0.54)',
+    // The color of an hovered action.
+    hover: 'rgba(0, 0, 0, 0.04)',
+    hoverOpacity: 0.04,
+    // The color of a selected action.
+    selected: 'rgba(0, 0, 0, 0.08)',
+    selectedOpacity: 0.08,
+    // The color of a disabled action.
+    disabled: 'rgba(0, 0, 0, 0.26)',
+    // The background color of a disabled action.
+    disabledBackground: 'rgba(0, 0, 0, 0.12)',
+    disabledOpacity: 0.38,
+    focus: 'rgba(0, 0, 0, 0.12)',
+    focusOpacity: 0.12,
+    activatedOpacity: 0.12
+  }
+};
+exports.light = light;
+var dark = {
+  text: {
+    primary: _common.default.white,
+    secondary: 'rgba(255, 255, 255, 0.7)',
+    disabled: 'rgba(255, 255, 255, 0.5)',
+    hint: 'rgba(255, 255, 255, 0.5)',
+    icon: 'rgba(255, 255, 255, 0.5)'
+  },
+  divider: 'rgba(255, 255, 255, 0.12)',
+  background: {
+    paper: _grey.default[800],
+    default: '#303030'
+  },
+  action: {
+    active: _common.default.white,
+    hover: 'rgba(255, 255, 255, 0.08)',
+    hoverOpacity: 0.08,
+    selected: 'rgba(255, 255, 255, 0.16)',
+    selectedOpacity: 0.16,
+    disabled: 'rgba(255, 255, 255, 0.3)',
+    disabledBackground: 'rgba(255, 255, 255, 0.12)',
+    disabledOpacity: 0.38,
+    focus: 'rgba(255, 255, 255, 0.12)',
+    focusOpacity: 0.12,
+    activatedOpacity: 0.24
+  }
+};
+exports.dark = dark;
+
+function addLightOrDark(intent, direction, shade, tonalOffset) {
+  var tonalOffsetLight = tonalOffset.light || tonalOffset;
+  var tonalOffsetDark = tonalOffset.dark || tonalOffset * 1.5;
+
+  if (!intent[direction]) {
+    if (intent.hasOwnProperty(shade)) {
+      intent[direction] = intent[shade];
+    } else if (direction === 'light') {
+      intent.light = (0, _colorManipulator.lighten)(intent.main, tonalOffsetLight);
+    } else if (direction === 'dark') {
+      intent.dark = (0, _colorManipulator.darken)(intent.main, tonalOffsetDark);
+    }
+  }
+}
+
+function createPalette(palette) {
+  var _palette$primary = palette.primary,
+      primary = _palette$primary === void 0 ? {
+    light: _indigo.default[300],
+    main: _indigo.default[500],
+    dark: _indigo.default[700]
+  } : _palette$primary,
+      _palette$secondary = palette.secondary,
+      secondary = _palette$secondary === void 0 ? {
+    light: _pink.default.A200,
+    main: _pink.default.A400,
+    dark: _pink.default.A700
+  } : _palette$secondary,
+      _palette$error = palette.error,
+      error = _palette$error === void 0 ? {
+    light: _red.default[300],
+    main: _red.default[500],
+    dark: _red.default[700]
+  } : _palette$error,
+      _palette$warning = palette.warning,
+      warning = _palette$warning === void 0 ? {
+    light: _orange.default[300],
+    main: _orange.default[500],
+    dark: _orange.default[700]
+  } : _palette$warning,
+      _palette$info = palette.info,
+      info = _palette$info === void 0 ? {
+    light: _blue.default[300],
+    main: _blue.default[500],
+    dark: _blue.default[700]
+  } : _palette$info,
+      _palette$success = palette.success,
+      success = _palette$success === void 0 ? {
+    light: _green.default[300],
+    main: _green.default[500],
+    dark: _green.default[700]
+  } : _palette$success,
+      _palette$type = palette.type,
+      type = _palette$type === void 0 ? 'light' : _palette$type,
+      _palette$contrastThre = palette.contrastThreshold,
+      contrastThreshold = _palette$contrastThre === void 0 ? 3 : _palette$contrastThre,
+      _palette$tonalOffset = palette.tonalOffset,
+      tonalOffset = _palette$tonalOffset === void 0 ? 0.2 : _palette$tonalOffset,
+      other = (0, _objectWithoutProperties2.default)(palette, ["primary", "secondary", "error", "warning", "info", "success", "type", "contrastThreshold", "tonalOffset"]); // Use the same logic as
+  // Bootstrap: https://github.com/twbs/bootstrap/blob/1d6e3710dd447de1a200f29e8fa521f8a0908f70/scss/_functions.scss#L59
+  // and material-components-web https://github.com/material-components/material-components-web/blob/ac46b8863c4dab9fc22c4c662dc6bd1b65dd652f/packages/mdc-theme/_functions.scss#L54
+
+  function getContrastText(background) {
+    var contrastText = (0, _colorManipulator.getContrastRatio)(background, dark.text.primary) >= contrastThreshold ? dark.text.primary : light.text.primary;
+
+    if ("development" !== 'production') {
+      var contrast = (0, _colorManipulator.getContrastRatio)(background, contrastText);
+
+      if (contrast < 3) {
+        console.error(["Material-UI: The contrast ratio of ".concat(contrast, ":1 for ").concat(contrastText, " on ").concat(background), 'falls below the WCAG recommended absolute minimum contrast ratio of 3:1.', 'https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast'].join('\n'));
+      }
+    }
+
+    return contrastText;
+  }
+
+  var augmentColor = function augmentColor(color) {
+    var mainShade = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;
+    var lightShade = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 300;
+    var darkShade = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 700;
+    color = (0, _extends2.default)({}, color);
+
+    if (!color.main && color[mainShade]) {
+      color.main = color[mainShade];
+    }
+
+    if (!color.main) {
+      throw new Error("development" !== "production" ? "Material-UI: The color provided to augmentColor(color) is invalid.\nThe color object needs to have a `main` property or a `".concat(mainShade, "` property.") : (0, _utils.formatMuiErrorMessage)(4, mainShade));
+    }
+
+    if (typeof color.main !== 'string') {
+      throw new Error("development" !== "production" ? "Material-UI: The color provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `".concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport {\xA0green } from \"@material-ui/core/colors\";\n\nconst theme1 = createTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createTheme({ palette: {\n  primary: { main: green[500] },\n} });") : _formatMuiErrorMessage(5, JSON.stringify(color.main)));
+    }
+
+    addLightOrDark(color, 'light', lightShade, tonalOffset);
+    addLightOrDark(color, 'dark', darkShade, tonalOffset);
+
+    if (!color.contrastText) {
+      color.contrastText = getContrastText(color.main);
+    }
+
+    return color;
+  };
+
+  var types = {
+    dark: dark,
+    light: light
+  };
+
+  if ("development" !== 'production') {
+    if (!types[type]) {
+      console.error("Material-UI: The palette type `".concat(type, "` is not supported."));
+    }
+  }
+
+  var paletteOutput = (0, _utils.deepmerge)((0, _extends2.default)({
+    // A collection of common colors.
+    common: _common.default,
+    // The palette type, can be light or dark.
+    type: type,
+    // The colors used to represent primary interface elements for a user.
+    primary: augmentColor(primary),
+    // The colors used to represent secondary interface elements for a user.
+    secondary: augmentColor(secondary, 'A400', 'A200', 'A700'),
+    // The colors used to represent interface elements that the user should be made aware of.
+    error: augmentColor(error),
+    // The colors used to represent potentially dangerous actions or important messages.
+    warning: augmentColor(warning),
+    // The colors used to present information to the user that is neutral and not necessarily important.
+    info: augmentColor(info),
+    // The colors used to indicate the successful completion of an action that user triggered.
+    success: augmentColor(success),
+    // The grey colors.
+    grey: _grey.default,
+    // Used by `getContrastText()` to maximize the contrast between
+    // the background and the text.
+    contrastThreshold: contrastThreshold,
+    // Takes a background color and returns the text color that maximizes the contrast.
+    getContrastText: getContrastText,
+    // Generate a rich color object.
+    augmentColor: augmentColor,
+    // Used by the functions below to shift a color's luminance by approximately
+    // two indexes within its tonal palette.
+    // E.g., shift from Red 500 to Red 300 or Red 700.
+    tonalOffset: tonalOffset
+  }, types[type]), other);
+  return paletteOutput;
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","@material-ui/utils":"node_modules/@material-ui/utils/esm/index.js","../colors/common":"node_modules/@material-ui/core/colors/common.js","../colors/grey":"node_modules/@material-ui/core/colors/grey.js","../colors/indigo":"node_modules/@material-ui/core/colors/indigo.js","../colors/pink":"node_modules/@material-ui/core/colors/pink.js","../colors/red":"node_modules/@material-ui/core/colors/red.js","../colors/orange":"node_modules/@material-ui/core/colors/orange.js","../colors/blue":"node_modules/@material-ui/core/colors/blue.js","../colors/green":"node_modules/@material-ui/core/colors/green.js","./colorManipulator":"node_modules/@material-ui/core/styles/colorManipulator.js"}],"node_modules/@material-ui/core/styles/createTypography.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createTypography;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _utils = require("@material-ui/utils");
+
+function round(value) {
+  return Math.round(value * 1e5) / 1e5;
+}
+
+var warnedOnce = false;
+
+function roundWithDeprecationWarning(value) {
+  if ("development" !== 'production') {
+    if (!warnedOnce) {
+      console.warn(['Material-UI: The `theme.typography.round` helper is deprecated.', 'Head to https://mui.com/r/migration-v4/#theme for a migration path.'].join('\n'));
+      warnedOnce = true;
+    }
+  }
+
+  return round(value);
+}
+
+var caseAllCaps = {
+  textTransform: 'uppercase'
+};
+var defaultFontFamily = '"Roboto", "Helvetica", "Arial", sans-serif';
+/**
+ * @see @link{https://material.io/design/typography/the-type-system.html}
+ * @see @link{https://material.io/design/typography/understanding-typography.html}
+ */
+
+function createTypography(palette, typography) {
+  var _ref = typeof typography === 'function' ? typography(palette) : typography,
+      _ref$fontFamily = _ref.fontFamily,
+      fontFamily = _ref$fontFamily === void 0 ? defaultFontFamily : _ref$fontFamily,
+      _ref$fontSize = _ref.fontSize,
+      fontSize = _ref$fontSize === void 0 ? 14 : _ref$fontSize,
+      _ref$fontWeightLight = _ref.fontWeightLight,
+      fontWeightLight = _ref$fontWeightLight === void 0 ? 300 : _ref$fontWeightLight,
+      _ref$fontWeightRegula = _ref.fontWeightRegular,
+      fontWeightRegular = _ref$fontWeightRegula === void 0 ? 400 : _ref$fontWeightRegula,
+      _ref$fontWeightMedium = _ref.fontWeightMedium,
+      fontWeightMedium = _ref$fontWeightMedium === void 0 ? 500 : _ref$fontWeightMedium,
+      _ref$fontWeightBold = _ref.fontWeightBold,
+      fontWeightBold = _ref$fontWeightBold === void 0 ? 700 : _ref$fontWeightBold,
+      _ref$htmlFontSize = _ref.htmlFontSize,
+      htmlFontSize = _ref$htmlFontSize === void 0 ? 16 : _ref$htmlFontSize,
+      allVariants = _ref.allVariants,
+      pxToRem2 = _ref.pxToRem,
+      other = (0, _objectWithoutProperties2.default)(_ref, ["fontFamily", "fontSize", "fontWeightLight", "fontWeightRegular", "fontWeightMedium", "fontWeightBold", "htmlFontSize", "allVariants", "pxToRem"]);
+
+  if ("development" !== 'production') {
+    if (typeof fontSize !== 'number') {
+      console.error('Material-UI: `fontSize` is required to be a number.');
+    }
+
+    if (typeof htmlFontSize !== 'number') {
+      console.error('Material-UI: `htmlFontSize` is required to be a number.');
+    }
+  }
+
+  var coef = fontSize / 14;
+
+  var pxToRem = pxToRem2 || function (size) {
+    return "".concat(size / htmlFontSize * coef, "rem");
+  };
+
+  var buildVariant = function buildVariant(fontWeight, size, lineHeight, letterSpacing, casing) {
+    return (0, _extends2.default)({
+      fontFamily: fontFamily,
+      fontWeight: fontWeight,
+      fontSize: pxToRem(size),
+      // Unitless following https://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/
+      lineHeight: lineHeight
+    }, fontFamily === defaultFontFamily ? {
+      letterSpacing: "".concat(round(letterSpacing / size), "em")
+    } : {}, casing, allVariants);
+  };
+
+  var variants = {
+    h1: buildVariant(fontWeightLight, 96, 1.167, -1.5),
+    h2: buildVariant(fontWeightLight, 60, 1.2, -0.5),
+    h3: buildVariant(fontWeightRegular, 48, 1.167, 0),
+    h4: buildVariant(fontWeightRegular, 34, 1.235, 0.25),
+    h5: buildVariant(fontWeightRegular, 24, 1.334, 0),
+    h6: buildVariant(fontWeightMedium, 20, 1.6, 0.15),
+    subtitle1: buildVariant(fontWeightRegular, 16, 1.75, 0.15),
+    subtitle2: buildVariant(fontWeightMedium, 14, 1.57, 0.1),
+    body1: buildVariant(fontWeightRegular, 16, 1.5, 0.15),
+    body2: buildVariant(fontWeightRegular, 14, 1.43, 0.15),
+    button: buildVariant(fontWeightMedium, 14, 1.75, 0.4, caseAllCaps),
+    caption: buildVariant(fontWeightRegular, 12, 1.66, 0.4),
+    overline: buildVariant(fontWeightRegular, 12, 2.66, 1, caseAllCaps)
+  };
+  return (0, _utils.deepmerge)((0, _extends2.default)({
+    htmlFontSize: htmlFontSize,
+    pxToRem: pxToRem,
+    round: roundWithDeprecationWarning,
+    // TODO v5: remove
+    fontFamily: fontFamily,
+    fontSize: fontSize,
+    fontWeightLight: fontWeightLight,
+    fontWeightRegular: fontWeightRegular,
+    fontWeightMedium: fontWeightMedium,
+    fontWeightBold: fontWeightBold
+  }, variants), other, {
+    clone: false // No need to clone deep
+
+  });
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","@material-ui/utils":"node_modules/@material-ui/utils/esm/index.js"}],"node_modules/@material-ui/core/styles/shadows.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var shadowKeyUmbraOpacity = 0.2;
+var shadowKeyPenumbraOpacity = 0.14;
+var shadowAmbientShadowOpacity = 0.12;
+
+function createShadow() {
+  return ["".concat(arguments.length <= 0 ? undefined : arguments[0], "px ").concat(arguments.length <= 1 ? undefined : arguments[1], "px ").concat(arguments.length <= 2 ? undefined : arguments[2], "px ").concat(arguments.length <= 3 ? undefined : arguments[3], "px rgba(0,0,0,").concat(shadowKeyUmbraOpacity, ")"), "".concat(arguments.length <= 4 ? undefined : arguments[4], "px ").concat(arguments.length <= 5 ? undefined : arguments[5], "px ").concat(arguments.length <= 6 ? undefined : arguments[6], "px ").concat(arguments.length <= 7 ? undefined : arguments[7], "px rgba(0,0,0,").concat(shadowKeyPenumbraOpacity, ")"), "".concat(arguments.length <= 8 ? undefined : arguments[8], "px ").concat(arguments.length <= 9 ? undefined : arguments[9], "px ").concat(arguments.length <= 10 ? undefined : arguments[10], "px ").concat(arguments.length <= 11 ? undefined : arguments[11], "px rgba(0,0,0,").concat(shadowAmbientShadowOpacity, ")")].join(',');
+} // Values from https://github.com/material-components/material-components-web/blob/be8747f94574669cb5e7add1a7c54fa41a89cec7/packages/mdc-elevation/_variables.scss
+
+
+var shadows = ['none', createShadow(0, 2, 1, -1, 0, 1, 1, 0, 0, 1, 3, 0), createShadow(0, 3, 1, -2, 0, 2, 2, 0, 0, 1, 5, 0), createShadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0), createShadow(0, 2, 4, -1, 0, 4, 5, 0, 0, 1, 10, 0), createShadow(0, 3, 5, -1, 0, 5, 8, 0, 0, 1, 14, 0), createShadow(0, 3, 5, -1, 0, 6, 10, 0, 0, 1, 18, 0), createShadow(0, 4, 5, -2, 0, 7, 10, 1, 0, 2, 16, 1), createShadow(0, 5, 5, -3, 0, 8, 10, 1, 0, 3, 14, 2), createShadow(0, 5, 6, -3, 0, 9, 12, 1, 0, 3, 16, 2), createShadow(0, 6, 6, -3, 0, 10, 14, 1, 0, 4, 18, 3), createShadow(0, 6, 7, -4, 0, 11, 15, 1, 0, 4, 20, 3), createShadow(0, 7, 8, -4, 0, 12, 17, 2, 0, 5, 22, 4), createShadow(0, 7, 8, -4, 0, 13, 19, 2, 0, 5, 24, 4), createShadow(0, 7, 9, -4, 0, 14, 21, 2, 0, 5, 26, 4), createShadow(0, 8, 9, -5, 0, 15, 22, 2, 0, 6, 28, 5), createShadow(0, 8, 10, -5, 0, 16, 24, 2, 0, 6, 30, 5), createShadow(0, 8, 11, -5, 0, 17, 26, 2, 0, 6, 32, 5), createShadow(0, 9, 11, -5, 0, 18, 28, 2, 0, 7, 34, 6), createShadow(0, 9, 12, -6, 0, 19, 29, 2, 0, 7, 36, 6), createShadow(0, 10, 13, -6, 0, 20, 31, 3, 0, 8, 38, 7), createShadow(0, 10, 13, -6, 0, 21, 33, 3, 0, 8, 40, 7), createShadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7), createShadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8), createShadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8)];
+var _default = shadows;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/styles/shape.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var shape = {
+  borderRadius: 4
+};
+var _default = shape;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/styles/createSpacing.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createSpacing;
+
+var _system = require("@material-ui/system");
+
+var warnOnce;
+
+function createSpacing() {
+  var spacingInput = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 8; // Already transformed.
+
+  if (spacingInput.mui) {
+    return spacingInput;
+  } // Material Design layouts are visually balanced. Most measurements align to an 8dp grid applied, which aligns both spacing and the overall layout.
+  // Smaller components, such as icons and type, can align to a 4dp grid.
+  // https://material.io/design/layout/understanding-layout.html#usage
+
+
+  var transform = (0, _system.createUnarySpacing)({
+    spacing: spacingInput
+  });
+
+  var spacing = function spacing() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    if ("development" !== 'production') {
+      if (!(args.length <= 4)) {
+        console.error("Material-UI: Too many arguments provided, expected between 0 and 4, got ".concat(args.length));
+      }
+    }
+
+    if (args.length === 0) {
+      return transform(1);
+    }
+
+    if (args.length === 1) {
+      return transform(args[0]);
+    }
+
+    return args.map(function (argument) {
+      if (typeof argument === 'string') {
+        return argument;
+      }
+
+      var output = transform(argument);
+      return typeof output === 'number' ? "".concat(output, "px") : output;
+    }).join(' ');
+  }; // Backward compatibility, to remove in v5.
+
+
+  Object.defineProperty(spacing, 'unit', {
+    get: function get() {
+      if ("development" !== 'production') {
+        if (!warnOnce || "development" === 'test') {
+          console.error(['Material-UI: theme.spacing.unit usage has been deprecated.', 'It will be removed in v5.', 'You can replace `theme.spacing.unit * y` with `theme.spacing(y)`.', '', 'You can use the `https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod/README.md#theme-spacing-api` migration helper to make the process smoother.'].join('\n'));
+        }
+
+        warnOnce = true;
+      }
+
+      return spacingInput;
+    }
+  });
+  spacing.mui = true;
+  return spacing;
+}
+},{"@material-ui/system":"node_modules/@material-ui/system/esm/index.js"}],"node_modules/@material-ui/core/styles/zIndex.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+// We need to centralize the zIndex definitions as they work
+// like global values in the browser.
+var zIndex = {
+  mobileStepper: 1000,
+  speedDial: 1050,
+  appBar: 1100,
+  drawer: 1200,
+  modal: 1300,
+  snackbar: 1400,
+  tooltip: 1500
+};
+var _default = zIndex;
+exports.default = _default;
+},{}],"node_modules/@material-ui/core/styles/createTheme.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createMuiTheme = createMuiTheme;
+exports.default = void 0;
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _utils = require("@material-ui/utils");
+
+var _createBreakpoints = _interopRequireDefault(require("./createBreakpoints"));
+
+var _createMixins = _interopRequireDefault(require("./createMixins"));
+
+var _createPalette = _interopRequireDefault(require("./createPalette"));
+
+var _createTypography = _interopRequireDefault(require("./createTypography"));
+
+var _shadows = _interopRequireDefault(require("./shadows"));
+
+var _shape = _interopRequireDefault(require("./shape"));
+
+var _createSpacing = _interopRequireDefault(require("./createSpacing"));
+
+var _transitions = _interopRequireDefault(require("./transitions"));
+
+var _zIndex = _interopRequireDefault(require("./zIndex"));
+
+function createTheme() {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var _options$breakpoints = options.breakpoints,
+      breakpointsInput = _options$breakpoints === void 0 ? {} : _options$breakpoints,
+      _options$mixins = options.mixins,
+      mixinsInput = _options$mixins === void 0 ? {} : _options$mixins,
+      _options$palette = options.palette,
+      paletteInput = _options$palette === void 0 ? {} : _options$palette,
+      spacingInput = options.spacing,
+      _options$typography = options.typography,
+      typographyInput = _options$typography === void 0 ? {} : _options$typography,
+      other = (0, _objectWithoutProperties2.default)(options, ["breakpoints", "mixins", "palette", "spacing", "typography"]);
+  var palette = (0, _createPalette.default)(paletteInput);
+  var breakpoints = (0, _createBreakpoints.default)(breakpointsInput);
+  var spacing = (0, _createSpacing.default)(spacingInput);
+  var muiTheme = (0, _utils.deepmerge)({
+    breakpoints: breakpoints,
+    direction: 'ltr',
+    mixins: (0, _createMixins.default)(breakpoints, spacing, mixinsInput),
+    overrides: {},
+    // Inject custom styles
+    palette: palette,
+    props: {},
+    // Provide default props
+    shadows: _shadows.default,
+    typography: (0, _createTypography.default)(palette, typographyInput),
+    spacing: spacing,
+    shape: _shape.default,
+    transitions: _transitions.default,
+    zIndex: _zIndex.default
+  }, other);
+
+  for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+
+  muiTheme = args.reduce(function (acc, argument) {
+    return (0, _utils.deepmerge)(acc, argument);
+  }, muiTheme);
+
+  if ("development" !== 'production') {
+    var pseudoClasses = ['checked', 'disabled', 'error', 'focused', 'focusVisible', 'required', 'expanded', 'selected'];
+
+    var traverse = function traverse(node, parentKey) {
+      var depth = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
+      var key; // eslint-disable-next-line guard-for-in, no-restricted-syntax
+
+      for (key in node) {
+        var child = node[key];
+
+        if (depth === 1) {
+          if (key.indexOf('Mui') === 0 && child) {
+            traverse(child, key, depth + 1);
+          }
+        } else if (pseudoClasses.indexOf(key) !== -1 && Object.keys(child).length > 0) {
+          if ("development" !== 'production') {
+            console.error(["Material-UI: The `".concat(parentKey, "` component increases ") + "the CSS specificity of the `".concat(key, "` internal state."), 'You can not override it like this: ', JSON.stringify(node, null, 2), '', 'Instead, you need to use the $ruleName syntax:', JSON.stringify({
+              root: (0, _defineProperty2.default)({}, "&$".concat(key), child)
+            }, null, 2), '', 'https://mui.com/r/pseudo-classes-guide'].join('\n'));
+          } // Remove the style to prevent global conflicts.
+
+
+          node[key] = {};
+        }
+      }
+    };
+
+    traverse(muiTheme.overrides);
+  }
+
+  return muiTheme;
+}
+
+var warnedOnce = false;
+
+function createMuiTheme() {
+  if ("development" !== 'production') {
+    if (!warnedOnce) {
+      warnedOnce = true;
+      console.error(['Material-UI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from '@material-ui/core/styles'`"].join('\n'));
+    }
+  }
+
+  return createTheme.apply(void 0, arguments);
+}
+
+var _default = createTheme;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","@material-ui/utils":"node_modules/@material-ui/utils/esm/index.js","./createBreakpoints":"node_modules/@material-ui/core/styles/createBreakpoints.js","./createMixins":"node_modules/@material-ui/core/styles/createMixins.js","./createPalette":"node_modules/@material-ui/core/styles/createPalette.js","./createTypography":"node_modules/@material-ui/core/styles/createTypography.js","./shadows":"node_modules/@material-ui/core/styles/shadows.js","./shape":"node_modules/@material-ui/core/styles/shape.js","./createSpacing":"node_modules/@material-ui/core/styles/createSpacing.js","./transitions":"node_modules/@material-ui/core/styles/transitions.js","./zIndex":"node_modules/@material-ui/core/styles/zIndex.js"}],"node_modules/@material-ui/core/styles/defaultTheme.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _createTheme = _interopRequireDefault(require("./createTheme"));
+
+var defaultTheme = (0, _createTheme.default)();
+var _default = defaultTheme;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","./createTheme":"node_modules/@material-ui/core/styles/createTheme.js"}],"node_modules/@material-ui/core/styles/useTheme.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useTheme;
+
+var _styles = require("@material-ui/styles");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
+
+function useTheme() {
+  var theme = (0, _styles.useTheme)() || _defaultTheme.default;
+
+  if ("development" !== 'production') {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.default.useDebugValue(theme);
+  }
+
+  return theme;
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@material-ui/styles":"node_modules/@material-ui/styles/esm/index.js","react":"node_modules/react/index.js","./defaultTheme":"node_modules/@material-ui/core/styles/defaultTheme.js"}],"node_modules/@material-ui/core/transitions/utils.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getTransitionProps = getTransitionProps;
+exports.reflow = void 0;
+
+var reflow = function reflow(node) {
+  return node.scrollTop;
+};
+
+exports.reflow = reflow;
+
+function getTransitionProps(props, options) {
+  var timeout = props.timeout,
+      _props$style = props.style,
+      style = _props$style === void 0 ? {} : _props$style;
+  return {
+    duration: style.transitionDuration || typeof timeout === 'number' ? timeout : timeout[options.mode] || 0,
+    delay: style.transitionDelay
+  };
+}
+},{}],"node_modules/@material-ui/core/utils/setRef.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = setRef;
+
+// TODO v5: consider to make it private
+function setRef(ref, value) {
+  if (typeof ref === 'function') {
+    ref(value);
+  } else if (ref) {
+    ref.current = value;
+  }
+}
+},{}],"node_modules/@material-ui/core/utils/useForkRef.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useForkRef;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _setRef = _interopRequireDefault(require("./setRef"));
+
+function useForkRef(refA, refB) {
+  /**
+   * This will create a new function if the ref props change and are defined.
+   * This means react will call the old forkRef with `null` and the new forkRef
+   * with the ref. Cleanup naturally emerges from this behavior
+   */
+  return React.useMemo(function () {
+    if (refA == null && refB == null) {
+      return null;
+    }
+
+    return function (refValue) {
+      (0, _setRef.default)(refA, refValue);
+      (0, _setRef.default)(refB, refValue);
+    };
+  }, [refA, refB]);
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","react":"node_modules/react/index.js","./setRef":"node_modules/@material-ui/core/utils/setRef.js"}],"node_modules/@material-ui/core/Fade/Fade.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/slicedToArray"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactTransitionGroup = require("react-transition-group");
+
+var _transitions = require("../styles/transitions");
+
+var _useTheme = _interopRequireDefault(require("../styles/useTheme"));
+
+var _utils = require("../transitions/utils");
+
+var _useForkRef = _interopRequireDefault(require("../utils/useForkRef"));
+
+var styles = {
+  entering: {
+    opacity: 1
+  },
+  entered: {
+    opacity: 1
+  }
+};
+var defaultTimeout = {
+  enter: _transitions.duration.enteringScreen,
+  exit: _transitions.duration.leavingScreen
+};
+/**
+ * The Fade transition is used by the [Modal](/components/modal/) component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Fade = /*#__PURE__*/React.forwardRef(function Fade(props, ref) {
+  var children = props.children,
+      _props$disableStrictM = props.disableStrictModeCompat,
+      disableStrictModeCompat = _props$disableStrictM === void 0 ? false : _props$disableStrictM,
+      inProp = props.in,
+      onEnter = props.onEnter,
+      onEntered = props.onEntered,
+      onEntering = props.onEntering,
+      onExit = props.onExit,
+      onExited = props.onExited,
+      onExiting = props.onExiting,
+      style = props.style,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? _reactTransitionGroup.Transition : _props$TransitionComp,
+      _props$timeout = props.timeout,
+      timeout = _props$timeout === void 0 ? defaultTimeout : _props$timeout,
+      other = (0, _objectWithoutProperties2.default)(props, ["children", "disableStrictModeCompat", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExited", "onExiting", "style", "TransitionComponent", "timeout"]);
+  var theme = (0, _useTheme.default)();
+  var enableStrictModeCompat = theme.unstable_strictMode && !disableStrictModeCompat;
+  var nodeRef = React.useRef(null);
+  var foreignRef = (0, _useForkRef.default)(children.ref, ref);
+  var handleRef = (0, _useForkRef.default)(enableStrictModeCompat ? nodeRef : undefined, foreignRef);
+
+  var normalizedTransitionCallback = function normalizedTransitionCallback(callback) {
+    return function (nodeOrAppearing, maybeAppearing) {
+      if (callback) {
+        var _ref = enableStrictModeCompat ? [nodeRef.current, nodeOrAppearing] : [nodeOrAppearing, maybeAppearing],
+            _ref2 = (0, _slicedToArray2.default)(_ref, 2),
+            node = _ref2[0],
+            isAppearing = _ref2[1]; // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+
+
+        if (isAppearing === undefined) {
+          callback(node);
+        } else {
+          callback(node, isAppearing);
+        }
+      }
+    };
+  };
+
+  var handleEntering = normalizedTransitionCallback(onEntering);
+  var handleEnter = normalizedTransitionCallback(function (node, isAppearing) {
+    (0, _utils.reflow)(node); // So the animation always start from the start.
+
+    var transitionProps = (0, _utils.getTransitionProps)({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'enter'
+    });
+    node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+    node.style.transition = theme.transitions.create('opacity', transitionProps);
+
+    if (onEnter) {
+      onEnter(node, isAppearing);
+    }
+  });
+  var handleEntered = normalizedTransitionCallback(onEntered);
+  var handleExiting = normalizedTransitionCallback(onExiting);
+  var handleExit = normalizedTransitionCallback(function (node) {
+    var transitionProps = (0, _utils.getTransitionProps)({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'exit'
+    });
+    node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+    node.style.transition = theme.transitions.create('opacity', transitionProps);
+
+    if (onExit) {
+      onExit(node);
+    }
+  });
+  var handleExited = normalizedTransitionCallback(onExited);
+  return /*#__PURE__*/React.createElement(TransitionComponent, (0, _extends2.default)({
+    appear: true,
+    in: inProp,
+    nodeRef: enableStrictModeCompat ? nodeRef : undefined,
+    onEnter: handleEnter,
+    onEntered: handleEntered,
+    onEntering: handleEntering,
+    onExit: handleExit,
+    onExited: handleExited,
+    onExiting: handleExiting,
+    timeout: timeout
+  }, other), function (state, childProps) {
+    return /*#__PURE__*/React.cloneElement(children, (0, _extends2.default)({
+      style: (0, _extends2.default)({
+        opacity: 0,
+        visibility: state === 'exited' && !inProp ? 'hidden' : undefined
+      }, styles[state], style, children.props.style),
+      ref: handleRef
+    }, childProps));
+  });
+});
+"development" !== "production" ? Fade.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+
+  /**
+   * A single child content element.
+   */
+  children: _propTypes.default.element,
+
+  /**
+   * Enable this prop if you encounter 'Function components cannot be given refs',
+   * use `unstable_createStrictModeTheme`,
+   * and can't forward the ref in the child component.
+   */
+  disableStrictModeCompat: _propTypes.default.bool,
+
+  /**
+   * If `true`, the component will transition in.
+   */
+  in: _propTypes.default.bool,
+
+  /**
+   * @ignore
+   */
+  onEnter: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onEntered: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onEntering: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExit: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExited: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExiting: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  style: _propTypes.default.object,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    appear: _propTypes.default.number,
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })])
+} : void 0;
+var _default = Fade;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/slicedToArray":"node_modules/@babel/runtime/helpers/slicedToArray.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group":"node_modules/react-transition-group/esm/index.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../styles/useTheme":"node_modules/@material-ui/core/styles/useTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js","../utils/useForkRef":"node_modules/@material-ui/core/utils/useForkRef.js"}],"node_modules/@material-ui/core/utils/deprecatedPropType.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = deprecatedPropType;
+
+function deprecatedPropType(validator, reason) {
+  if ("development" === 'production') {
+    return function () {
+      return null;
+    };
+  }
+
+  return function (props, propName, componentName, location, propFullName) {
+    var componentNameSafe = componentName || '<<anonymous>>';
+    var propFullNameSafe = propFullName || propName;
+
+    if (typeof props[propName] !== 'undefined') {
+      return new Error("The ".concat(location, " `").concat(propFullNameSafe, "` of ") + "`".concat(componentNameSafe, "` is deprecated. ").concat(reason));
+    }
+
+    return null;
+  };
+}
+},{}],"node_modules/@material-ui/core/utils/ownerDocument.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ownerDocument;
+
+function ownerDocument(node) {
+  return node && node.ownerDocument || document;
+}
+},{}],"node_modules/@material-ui/core/utils/createChainedFunction.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createChainedFunction;
+/**
+ * Safe chained function
+ *
+ * Will only create a new function if needed,
+ * otherwise will pass back existing functions or null.
+ *
+ * @param {function} functions to chain
+ * @returns {function|null}
+ */
+
+function createChainedFunction() {
+  for (var _len = arguments.length, funcs = new Array(_len), _key = 0; _key < _len; _key++) {
+    funcs[_key] = arguments[_key];
+  }
+
+  return funcs.reduce(function (acc, func) {
+    if (func == null) {
+      return acc;
+    }
+
+    if ("development" !== 'production') {
+      if (typeof func !== 'function') {
+        console.error('Material-UI: Invalid Argument Type, must only provide functions, undefined, or null.');
+      }
+    }
+
+    return function chainedFunction() {
+      for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+
+      acc.apply(this, args);
+      func.apply(this, args);
+    };
+  }, function () {});
+}
+},{}],"node_modules/@material-ui/core/utils/useEventCallback.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useEventCallback;
+
+var React = _interopRequireWildcard(require("react"));
+
+var useEnhancedEffect = typeof window !== 'undefined' ? React.useLayoutEffect : React.useEffect;
+/**
+ * https://github.com/facebook/react/issues/14099#issuecomment-440013892
+ *
+ * @param {function} fn
+ */
+
+function useEventCallback(fn) {
+  var ref = React.useRef(fn);
+  useEnhancedEffect(function () {
+    ref.current = fn;
+  });
+  return React.useCallback(function () {
+    return (0, ref.current).apply(void 0, arguments);
+  }, []);
+}
+},{"@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","react":"node_modules/react/index.js"}],"node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":[function(require,module,exports) {
+var arrayLikeToArray = require("./arrayLikeToArray.js");
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return arrayLikeToArray(arr);
+}
+
+module.exports = _arrayWithoutHoles, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./arrayLikeToArray.js":"node_modules/@babel/runtime/helpers/arrayLikeToArray.js"}],"node_modules/@babel/runtime/helpers/iterableToArray.js":[function(require,module,exports) {
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+}
+
+module.exports = _iterableToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/nonIterableSpread.js":[function(require,module,exports) {
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+module.exports = _nonIterableSpread, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{}],"node_modules/@babel/runtime/helpers/toConsumableArray.js":[function(require,module,exports) {
+var arrayWithoutHoles = require("./arrayWithoutHoles.js");
+
+var iterableToArray = require("./iterableToArray.js");
+
+var unsupportedIterableToArray = require("./unsupportedIterableToArray.js");
+
+var nonIterableSpread = require("./nonIterableSpread.js");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+},{"./arrayWithoutHoles.js":"node_modules/@babel/runtime/helpers/arrayWithoutHoles.js","./iterableToArray.js":"node_modules/@babel/runtime/helpers/iterableToArray.js","./unsupportedIterableToArray.js":"node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js","./nonIterableSpread.js":"node_modules/@babel/runtime/helpers/nonIterableSpread.js"}],"node_modules/@material-ui/core/utils/getScrollbarSize.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getScrollbarSize;
+
+// A change of the browser zoom change the scrollbar size.
+// Credit https://github.com/twbs/bootstrap/blob/3ffe3a5d82f6f561b82ff78d82b32a7d14aed558/js/src/modal.js#L512-L519
+function getScrollbarSize() {
+  var scrollDiv = document.createElement('div');
+  scrollDiv.style.width = '99px';
+  scrollDiv.style.height = '99px';
+  scrollDiv.style.position = 'absolute';
+  scrollDiv.style.top = '-9999px';
+  scrollDiv.style.overflow = 'scroll';
+  document.body.appendChild(scrollDiv);
+  var scrollbarSize = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+  document.body.removeChild(scrollDiv);
+  return scrollbarSize;
+}
+},{}],"node_modules/@material-ui/core/utils/ownerWindow.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ownerWindow;
+
+var _ownerDocument = _interopRequireDefault(require("./ownerDocument"));
+
+function ownerWindow(node) {
+  var doc = (0, _ownerDocument.default)(node);
+  return doc.defaultView || window;
+}
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","./ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js"}],"node_modules/@material-ui/core/Modal/ModalManager.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ariaHidden = ariaHidden;
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _toConsumableArray2 = _interopRequireDefault(require("@babel/runtime/helpers/toConsumableArray"));
+
+var _getScrollbarSize = _interopRequireDefault(require("../utils/getScrollbarSize"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _ownerWindow = _interopRequireDefault(require("../utils/ownerWindow"));
+
+// Is a vertical scrollbar displayed?
+function isOverflowing(container) {
+  var doc = (0, _ownerDocument.default)(container);
+
+  if (doc.body === container) {
+    return (0, _ownerWindow.default)(doc).innerWidth > doc.documentElement.clientWidth;
+  }
+
+  return container.scrollHeight > container.clientHeight;
+}
+
+function ariaHidden(node, show) {
+  if (show) {
+    node.setAttribute('aria-hidden', 'true');
+  } else {
+    node.removeAttribute('aria-hidden');
+  }
+}
+
+function getPaddingRight(node) {
+  return parseInt(window.getComputedStyle(node)['padding-right'], 10) || 0;
+}
+
+function ariaHiddenSiblings(container, mountNode, currentNode) {
+  var nodesToExclude = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];
+  var show = arguments.length > 4 ? arguments[4] : undefined;
+  var blacklist = [mountNode, currentNode].concat((0, _toConsumableArray2.default)(nodesToExclude));
+  var blacklistTagNames = ['TEMPLATE', 'SCRIPT', 'STYLE'];
+  [].forEach.call(container.children, function (node) {
+    if (node.nodeType === 1 && blacklist.indexOf(node) === -1 && blacklistTagNames.indexOf(node.tagName) === -1) {
+      ariaHidden(node, show);
+    }
+  });
+}
+
+function findIndexOf(containerInfo, callback) {
+  var idx = -1;
+  containerInfo.some(function (item, index) {
+    if (callback(item)) {
+      idx = index;
+      return true;
+    }
+
+    return false;
+  });
+  return idx;
+}
+
+function handleContainer(containerInfo, props) {
+  var restoreStyle = [];
+  var restorePaddings = [];
+  var container = containerInfo.container;
+  var fixedNodes;
+
+  if (!props.disableScrollLock) {
+    if (isOverflowing(container)) {
+      // Compute the size before applying overflow hidden to avoid any scroll jumps.
+      var scrollbarSize = (0, _getScrollbarSize.default)();
+      restoreStyle.push({
+        value: container.style.paddingRight,
+        key: 'padding-right',
+        el: container
+      }); // Use computed style, here to get the real padding to add our scrollbar width.
+
+      container.style['padding-right'] = "".concat(getPaddingRight(container) + scrollbarSize, "px"); // .mui-fixed is a global helper.
+
+      fixedNodes = (0, _ownerDocument.default)(container).querySelectorAll('.mui-fixed');
+      [].forEach.call(fixedNodes, function (node) {
+        restorePaddings.push(node.style.paddingRight);
+        node.style.paddingRight = "".concat(getPaddingRight(node) + scrollbarSize, "px");
+      });
+    } // Improve Gatsby support
+    // https://css-tricks.com/snippets/css/force-vertical-scrollbar/
+
+
+    var parent = container.parentElement;
+    var scrollContainer = parent.nodeName === 'HTML' && window.getComputedStyle(parent)['overflow-y'] === 'scroll' ? parent : container; // Block the scroll even if no scrollbar is visible to account for mobile keyboard
+    // screensize shrink.
+
+    restoreStyle.push({
+      value: scrollContainer.style.overflow,
+      key: 'overflow',
+      el: scrollContainer
+    });
+    scrollContainer.style.overflow = 'hidden';
+  }
+
+  var restore = function restore() {
+    if (fixedNodes) {
+      [].forEach.call(fixedNodes, function (node, i) {
+        if (restorePaddings[i]) {
+          node.style.paddingRight = restorePaddings[i];
+        } else {
+          node.style.removeProperty('padding-right');
+        }
+      });
+    }
+
+    restoreStyle.forEach(function (_ref) {
+      var value = _ref.value,
+          el = _ref.el,
+          key = _ref.key;
+
+      if (value) {
+        el.style.setProperty(key, value);
+      } else {
+        el.style.removeProperty(key);
+      }
+    });
+  };
+
+  return restore;
+}
+
+function getHiddenSiblings(container) {
+  var hiddenSiblings = [];
+  [].forEach.call(container.children, function (node) {
+    if (node.getAttribute && node.getAttribute('aria-hidden') === 'true') {
+      hiddenSiblings.push(node);
+    }
+  });
+  return hiddenSiblings;
+}
+/**
+ * @ignore - do not document.
+ *
+ * Proper state management for containers and the modals in those containers.
+ * Simplified, but inspired by react-overlay's ModalManager class.
+ * Used by the Modal to ensure proper styling of containers.
+ */
+
+
+var ModalManager = /*#__PURE__*/function () {
+  function ModalManager() {
+    (0, _classCallCheck2.default)(this, ModalManager);
+    // this.modals[modalIndex] = modal
+    this.modals = []; // this.containers[containerIndex] = {
+    //   modals: [],
+    //   container,
+    //   restore: null,
+    // }
+
+    this.containers = [];
+  }
+
+  (0, _createClass2.default)(ModalManager, [{
+    key: "add",
+    value: function add(modal, container) {
+      var modalIndex = this.modals.indexOf(modal);
+
+      if (modalIndex !== -1) {
+        return modalIndex;
+      }
+
+      modalIndex = this.modals.length;
+      this.modals.push(modal); // If the modal we are adding is already in the DOM.
+
+      if (modal.modalRef) {
+        ariaHidden(modal.modalRef, false);
+      }
+
+      var hiddenSiblingNodes = getHiddenSiblings(container);
+      ariaHiddenSiblings(container, modal.mountNode, modal.modalRef, hiddenSiblingNodes, true);
+      var containerIndex = findIndexOf(this.containers, function (item) {
+        return item.container === container;
+      });
+
+      if (containerIndex !== -1) {
+        this.containers[containerIndex].modals.push(modal);
+        return modalIndex;
+      }
+
+      this.containers.push({
+        modals: [modal],
+        container: container,
+        restore: null,
+        hiddenSiblingNodes: hiddenSiblingNodes
+      });
+      return modalIndex;
+    }
+  }, {
+    key: "mount",
+    value: function mount(modal, props) {
+      var containerIndex = findIndexOf(this.containers, function (item) {
+        return item.modals.indexOf(modal) !== -1;
+      });
+      var containerInfo = this.containers[containerIndex];
+
+      if (!containerInfo.restore) {
+        containerInfo.restore = handleContainer(containerInfo, props);
+      }
+    }
+  }, {
+    key: "remove",
+    value: function remove(modal) {
+      var modalIndex = this.modals.indexOf(modal);
+
+      if (modalIndex === -1) {
+        return modalIndex;
+      }
+
+      var containerIndex = findIndexOf(this.containers, function (item) {
+        return item.modals.indexOf(modal) !== -1;
+      });
+      var containerInfo = this.containers[containerIndex];
+      containerInfo.modals.splice(containerInfo.modals.indexOf(modal), 1);
+      this.modals.splice(modalIndex, 1); // If that was the last modal in a container, clean up the container.
+
+      if (containerInfo.modals.length === 0) {
+        // The modal might be closed before it had the chance to be mounted in the DOM.
+        if (containerInfo.restore) {
+          containerInfo.restore();
+        }
+
+        if (modal.modalRef) {
+          // In case the modal wasn't in the DOM yet.
+          ariaHidden(modal.modalRef, true);
+        }
+
+        ariaHiddenSiblings(containerInfo.container, modal.mountNode, modal.modalRef, containerInfo.hiddenSiblingNodes, false);
+        this.containers.splice(containerIndex, 1);
+      } else {
+        // Otherwise make sure the next top modal is visible to a screen reader.
+        var nextTop = containerInfo.modals[containerInfo.modals.length - 1]; // as soon as a modal is adding its modalRef is undefined. it can't set
+        // aria-hidden because the dom element doesn't exist either
+        // when modal was unmounted before modalRef gets null
+
+        if (nextTop.modalRef) {
+          ariaHidden(nextTop.modalRef, false);
+        }
+      }
+
+      return modalIndex;
+    }
+  }, {
+    key: "isTopModal",
+    value: function isTopModal(modal) {
+      return this.modals.length > 0 && this.modals[this.modals.length - 1] === modal;
+    }
+  }]);
+  return ModalManager;
+}();
+
+exports.default = ModalManager;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/classCallCheck":"node_modules/@babel/runtime/helpers/classCallCheck.js","@babel/runtime/helpers/createClass":"node_modules/@babel/runtime/helpers/createClass.js","@babel/runtime/helpers/toConsumableArray":"node_modules/@babel/runtime/helpers/toConsumableArray.js","../utils/getScrollbarSize":"node_modules/@material-ui/core/utils/getScrollbarSize.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../utils/ownerWindow":"node_modules/@material-ui/core/utils/ownerWindow.js"}],"node_modules/@material-ui/core/Modal/SimpleBackdrop.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    zIndex: -1,
+    position: 'fixed',
+    right: 0,
+    bottom: 0,
+    top: 0,
+    left: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    WebkitTapHighlightColor: 'transparent'
+  },
+
+  /* Styles applied to the root element if `invisible={true}`. */
+  invisible: {
+    backgroundColor: 'transparent'
+  }
+};
+/**
+ * @ignore - internal component.
+ */
+
+exports.styles = styles;
+var SimpleBackdrop = /*#__PURE__*/React.forwardRef(function SimpleBackdrop(props, ref) {
+  var _props$invisible = props.invisible,
+      invisible = _props$invisible === void 0 ? false : _props$invisible,
+      open = props.open,
+      other = (0, _objectWithoutProperties2.default)(props, ["invisible", "open"]);
+  return open ? /*#__PURE__*/React.createElement("div", (0, _extends2.default)({
+    "aria-hidden": true,
+    ref: ref
+  }, other, {
+    style: (0, _extends2.default)({}, styles.root, invisible ? styles.invisible : {}, other.style)
+  })) : null;
+});
+"development" !== "production" ? SimpleBackdrop.propTypes = {
+  /**
+   * If `true`, the backdrop is invisible.
+   * It can be used when rendering a popover or a custom select component.
+   */
+  invisible: _propTypes.default.bool,
+
+  /**
+   * If `true`, the backdrop is open.
+   */
+  open: _propTypes.default.bool.isRequired
+} : void 0;
+var _default = SimpleBackdrop;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js"}],"node_modules/@material-ui/core/Modal/Modal.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var ReactDOM = _interopRequireWildcard(require("react-dom"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _styles = require("@material-ui/styles");
+
+var _utils = require("@material-ui/utils");
+
+var _deprecatedPropType = _interopRequireDefault(require("../utils/deprecatedPropType"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _Portal = _interopRequireDefault(require("../Portal"));
+
+var _createChainedFunction = _interopRequireDefault(require("../utils/createChainedFunction"));
+
+var _useForkRef = _interopRequireDefault(require("../utils/useForkRef"));
+
+var _useEventCallback = _interopRequireDefault(require("../utils/useEventCallback"));
+
+var _zIndex = _interopRequireDefault(require("../styles/zIndex"));
+
+var _ModalManager = _interopRequireWildcard(require("./ModalManager"));
+
+var _Unstable_TrapFocus = _interopRequireDefault(require("../Unstable_TrapFocus"));
+
+var _SimpleBackdrop = _interopRequireDefault(require("./SimpleBackdrop"));
+
+function getContainer(container) {
+  container = typeof container === 'function' ? container() : container;
+  return ReactDOM.findDOMNode(container);
+}
+
+function getHasTransition(props) {
+  return props.children ? props.children.props.hasOwnProperty('in') : false;
+} // A modal manager used to track and manage the state of open Modals.
+// Modals don't open on the server so this won't conflict with concurrent requests.
+
+
+var defaultManager = new _ModalManager.default();
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      position: 'fixed',
+      zIndex: theme.zIndex.modal,
+      right: 0,
+      bottom: 0,
+      top: 0,
+      left: 0
+    },
+
+    /* Styles applied to the root element if the `Modal` has exited. */
+    hidden: {
+      visibility: 'hidden'
+    }
+  };
+};
+/**
+ * Modal is a lower-level construct that is leveraged by the following components:
+ *
+ * - [Dialog](/api/dialog/)
+ * - [Drawer](/api/drawer/)
+ * - [Menu](/api/menu/)
+ * - [Popover](/api/popover/)
+ *
+ * If you are creating a modal dialog, you probably want to use the [Dialog](/api/dialog/) component
+ * rather than directly using Modal.
+ *
+ * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
+ */
+
+
+exports.styles = styles;
+var Modal = /*#__PURE__*/React.forwardRef(function Modal(inProps, ref) {
+  var theme = (0, _styles.useTheme)();
+  var props = (0, _styles.getThemeProps)({
+    name: 'MuiModal',
+    props: (0, _extends2.default)({}, inProps),
+    theme: theme
+  });
+  var _props$BackdropCompon = props.BackdropComponent,
+      BackdropComponent = _props$BackdropCompon === void 0 ? _SimpleBackdrop.default : _props$BackdropCompon,
+      BackdropProps = props.BackdropProps,
+      children = props.children,
+      _props$closeAfterTran = props.closeAfterTransition,
+      closeAfterTransition = _props$closeAfterTran === void 0 ? false : _props$closeAfterTran,
+      container = props.container,
+      _props$disableAutoFoc = props.disableAutoFocus,
+      disableAutoFocus = _props$disableAutoFoc === void 0 ? false : _props$disableAutoFoc,
+      _props$disableBackdro = props.disableBackdropClick,
+      disableBackdropClick = _props$disableBackdro === void 0 ? false : _props$disableBackdro,
+      _props$disableEnforce = props.disableEnforceFocus,
+      disableEnforceFocus = _props$disableEnforce === void 0 ? false : _props$disableEnforce,
+      _props$disableEscapeK = props.disableEscapeKeyDown,
+      disableEscapeKeyDown = _props$disableEscapeK === void 0 ? false : _props$disableEscapeK,
+      _props$disablePortal = props.disablePortal,
+      disablePortal = _props$disablePortal === void 0 ? false : _props$disablePortal,
+      _props$disableRestore = props.disableRestoreFocus,
+      disableRestoreFocus = _props$disableRestore === void 0 ? false : _props$disableRestore,
+      _props$disableScrollL = props.disableScrollLock,
+      disableScrollLock = _props$disableScrollL === void 0 ? false : _props$disableScrollL,
+      _props$hideBackdrop = props.hideBackdrop,
+      hideBackdrop = _props$hideBackdrop === void 0 ? false : _props$hideBackdrop,
+      _props$keepMounted = props.keepMounted,
+      keepMounted = _props$keepMounted === void 0 ? false : _props$keepMounted,
+      _props$manager = props.manager,
+      manager = _props$manager === void 0 ? defaultManager : _props$manager,
+      onBackdropClick = props.onBackdropClick,
+      onClose = props.onClose,
+      onEscapeKeyDown = props.onEscapeKeyDown,
+      onRendered = props.onRendered,
+      open = props.open,
+      other = (0, _objectWithoutProperties2.default)(props, ["BackdropComponent", "BackdropProps", "children", "closeAfterTransition", "container", "disableAutoFocus", "disableBackdropClick", "disableEnforceFocus", "disableEscapeKeyDown", "disablePortal", "disableRestoreFocus", "disableScrollLock", "hideBackdrop", "keepMounted", "manager", "onBackdropClick", "onClose", "onEscapeKeyDown", "onRendered", "open"]);
+
+  var _React$useState = React.useState(true),
+      exited = _React$useState[0],
+      setExited = _React$useState[1];
+
+  var modal = React.useRef({});
+  var mountNodeRef = React.useRef(null);
+  var modalRef = React.useRef(null);
+  var handleRef = (0, _useForkRef.default)(modalRef, ref);
+  var hasTransition = getHasTransition(props);
+
+  var getDoc = function getDoc() {
+    return (0, _ownerDocument.default)(mountNodeRef.current);
+  };
+
+  var getModal = function getModal() {
+    modal.current.modalRef = modalRef.current;
+    modal.current.mountNode = mountNodeRef.current;
+    return modal.current;
+  };
+
+  var handleMounted = function handleMounted() {
+    manager.mount(getModal(), {
+      disableScrollLock: disableScrollLock
+    }); // Fix a bug on Chrome where the scroll isn't initially 0.
+
+    modalRef.current.scrollTop = 0;
+  };
+
+  var handleOpen = (0, _useEventCallback.default)(function () {
+    var resolvedContainer = getContainer(container) || getDoc().body;
+    manager.add(getModal(), resolvedContainer); // The element was already mounted.
+
+    if (modalRef.current) {
+      handleMounted();
+    }
+  });
+  var isTopModal = React.useCallback(function () {
+    return manager.isTopModal(getModal());
+  }, [manager]);
+  var handlePortalRef = (0, _useEventCallback.default)(function (node) {
+    mountNodeRef.current = node;
+
+    if (!node) {
+      return;
+    }
+
+    if (onRendered) {
+      onRendered();
+    }
+
+    if (open && isTopModal()) {
+      handleMounted();
+    } else {
+      (0, _ModalManager.ariaHidden)(modalRef.current, true);
+    }
+  });
+  var handleClose = React.useCallback(function () {
+    manager.remove(getModal());
+  }, [manager]);
+  React.useEffect(function () {
+    return function () {
+      handleClose();
+    };
+  }, [handleClose]);
+  React.useEffect(function () {
+    if (open) {
+      handleOpen();
+    } else if (!hasTransition || !closeAfterTransition) {
+      handleClose();
+    }
+  }, [open, handleClose, hasTransition, closeAfterTransition, handleOpen]);
+
+  if (!keepMounted && !open && (!hasTransition || exited)) {
+    return null;
+  }
+
+  var handleEnter = function handleEnter() {
+    setExited(false);
+  };
+
+  var handleExited = function handleExited() {
+    setExited(true);
+
+    if (closeAfterTransition) {
+      handleClose();
+    }
+  };
+
+  var handleBackdropClick = function handleBackdropClick(event) {
+    if (event.target !== event.currentTarget) {
+      return;
+    }
+
+    if (onBackdropClick) {
+      onBackdropClick(event);
+    }
+
+    if (!disableBackdropClick && onClose) {
+      onClose(event, 'backdropClick');
+    }
+  };
+
+  var handleKeyDown = function handleKeyDown(event) {
+    // The handler doesn't take event.defaultPrevented into account:
+    //
+    // event.preventDefault() is meant to stop default behaviours like
+    // clicking a checkbox to check it, hitting a button to submit a form,
+    // and hitting left arrow to move the cursor in a text input etc.
+    // Only special HTML elements have these default behaviors.
+    if (event.key !== 'Escape' || !isTopModal()) {
+      return;
+    }
+
+    if (onEscapeKeyDown) {
+      onEscapeKeyDown(event);
+    }
+
+    if (!disableEscapeKeyDown) {
+      // Swallow the event, in case someone is listening for the escape key on the body.
+      event.stopPropagation();
+
+      if (onClose) {
+        onClose(event, 'escapeKeyDown');
+      }
+    }
+  };
+
+  var inlineStyle = styles(theme || {
+    zIndex: _zIndex.default
+  });
+  var childProps = {};
+
+  if (children.props.tabIndex === undefined) {
+    childProps.tabIndex = children.props.tabIndex || '-1';
+  } // It's a Transition like component
+
+
+  if (hasTransition) {
+    childProps.onEnter = (0, _createChainedFunction.default)(handleEnter, children.props.onEnter);
+    childProps.onExited = (0, _createChainedFunction.default)(handleExited, children.props.onExited);
+  }
+
+  return /*#__PURE__*/React.createElement(_Portal.default, {
+    ref: handlePortalRef,
+    container: container,
+    disablePortal: disablePortal
+  }, /*#__PURE__*/React.createElement("div", (0, _extends2.default)({
+    ref: handleRef,
+    onKeyDown: handleKeyDown,
+    role: "presentation"
+  }, other, {
+    style: (0, _extends2.default)({}, inlineStyle.root, !open && exited ? inlineStyle.hidden : {}, other.style)
+  }), hideBackdrop ? null : /*#__PURE__*/React.createElement(BackdropComponent, (0, _extends2.default)({
+    open: open,
+    onClick: handleBackdropClick
+  }, BackdropProps)), /*#__PURE__*/React.createElement(_Unstable_TrapFocus.default, {
+    disableEnforceFocus: disableEnforceFocus,
+    disableAutoFocus: disableAutoFocus,
+    disableRestoreFocus: disableRestoreFocus,
+    getDoc: getDoc,
+    isEnabled: isTopModal,
+    open: open
+  }, /*#__PURE__*/React.cloneElement(children, childProps))));
+});
+"development" !== "production" ? Modal.propTypes = {
+  /**
+   * A backdrop component. This prop enables custom backdrop rendering.
+   */
+  BackdropComponent: _propTypes.default.elementType,
+
+  /**
+   * Props applied to the [`Backdrop`](/api/backdrop/) element.
+   */
+  BackdropProps: _propTypes.default.object,
+
+  /**
+   * A single child content element.
+   */
+  children: _utils.elementAcceptingRef.isRequired,
+
+  /**
+   * When set to true the Modal waits until a nested Transition is completed before closing.
+   */
+  closeAfterTransition: _propTypes.default.bool,
+
+  /**
+   * A HTML element, component instance, or function that returns either.
+   * The `container` will have the portal children appended to it.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */
+  container: _propTypes.default
+  /* @typescript-to-proptypes-ignore */
+  .oneOfType([_utils.HTMLElementType, _propTypes.default.instanceOf(React.Component), _propTypes.default.func]),
+
+  /**
+   * If `true`, the modal will not automatically shift focus to itself when it opens, and
+   * replace it to the last focused element when it closes.
+   * This also works correctly with any modal children that have the `disableAutoFocus` prop.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  disableAutoFocus: _propTypes.default.bool,
+
+  /**
+   * If `true`, clicking the backdrop will not fire `onClose`.
+   */
+  disableBackdropClick: (0, _deprecatedPropType.default)(_propTypes.default.bool, 'Use the onClose prop with the `reason` argument to filter the `backdropClick` events.'),
+
+  /**
+   * If `true`, the modal will not prevent focus from leaving the modal while open.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  disableEnforceFocus: _propTypes.default.bool,
+
+  /**
+   * If `true`, hitting escape will not fire `onClose`.
+   */
+  disableEscapeKeyDown: _propTypes.default.bool,
+
+  /**
+   * Disable the portal behavior.
+   * The children stay within it's parent DOM hierarchy.
+   */
+  disablePortal: _propTypes.default.bool,
+
+  /**
+   * If `true`, the modal will not restore focus to previously focused element once
+   * modal is hidden.
+   */
+  disableRestoreFocus: _propTypes.default.bool,
+
+  /**
+   * Disable the scroll lock behavior.
+   */
+  disableScrollLock: _propTypes.default.bool,
+
+  /**
+   * If `true`, the backdrop is not rendered.
+   */
+  hideBackdrop: _propTypes.default.bool,
+
+  /**
+   * Always keep the children in the DOM.
+   * This prop can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Modal.
+   */
+  keepMounted: _propTypes.default.bool,
+
+  /**
+   * @ignore
+   */
+  manager: _propTypes.default.object,
+
+  /**
+   * Callback fired when the backdrop is clicked.
+   */
+  onBackdropClick: (0, _deprecatedPropType.default)(_propTypes.default.func, 'Use the onClose prop with the `reason` argument to handle the `backdropClick` events.'),
+
+  /**
+   * Callback fired when the component requests to be closed.
+   * The `reason` parameter can optionally be used to control the response to `onClose`.
+   *
+   * @param {object} event The event source of the callback.
+   * @param {string} reason Can be: `"escapeKeyDown"`, `"backdropClick"`.
+   */
+  onClose: _propTypes.default.func,
+
+  /**
+   * Callback fired when the escape key is pressed,
+   * `disableEscapeKeyDown` is false and the modal is in focus.
+   */
+  onEscapeKeyDown: (0, _deprecatedPropType.default)(_propTypes.default.func, 'Use the onClose prop with the `reason` argument to handle the `escapeKeyDown` events.'),
+
+  /**
+   * Callback fired once the children has been mounted into the `container`.
+   * It signals that the `open={true}` prop took effect.
+   *
+   * This prop will be removed in v5, the ref can be used instead.
+   */
+  onRendered: (0, _deprecatedPropType.default)(_propTypes.default.func, 'Use the ref instead.'),
+
+  /**
+   * If `true`, the modal is open.
+   */
+  open: _propTypes.default.bool.isRequired
+} : void 0;
+var _default = Modal;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","@material-ui/styles":"node_modules/@material-ui/styles/esm/index.js","@material-ui/utils":"node_modules/@material-ui/utils/esm/index.js","../utils/deprecatedPropType":"node_modules/@material-ui/core/utils/deprecatedPropType.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../Portal":"node_modules/@material-ui/core/esm/Portal/index.js","../utils/createChainedFunction":"node_modules/@material-ui/core/utils/createChainedFunction.js","../utils/useForkRef":"node_modules/@material-ui/core/utils/useForkRef.js","../utils/useEventCallback":"node_modules/@material-ui/core/utils/useEventCallback.js","../styles/zIndex":"node_modules/@material-ui/core/styles/zIndex.js","./ModalManager":"node_modules/@material-ui/core/Modal/ModalManager.js","../Unstable_TrapFocus":"node_modules/@material-ui/core/esm/Unstable_TrapFocus/index.js","./SimpleBackdrop":"node_modules/@material-ui/core/Modal/SimpleBackdrop.js"}],"node_modules/@material-ui/core/styles/createStyles.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createStyles;
+
+var _styles = require("@material-ui/styles");
+
+// let warnOnce = false;
+// To remove in v5
+function createStyles(styles) {
+  // warning(
+  //   warnOnce,
+  //   [
+  //     'Material-UI: createStyles from @material-ui/core/styles is deprecated.',
+  //     'Please use @material-ui/styles/createStyles',
+  //   ].join('\n'),
+  // );
+  // warnOnce = true;
+  return (0, _styles.createStyles)(styles);
+}
+},{"@material-ui/styles":"node_modules/@material-ui/styles/esm/index.js"}],"node_modules/@material-ui/core/styles/makeStyles.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _styles = require("@material-ui/styles");
+
+var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
+
+function makeStyles(stylesOrCreator) {
+  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  return (0, _styles.makeStyles)(stylesOrCreator, (0, _extends2.default)({
+    defaultTheme: _defaultTheme.default
+  }, options));
+}
+
+var _default = makeStyles;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@material-ui/styles":"node_modules/@material-ui/styles/esm/index.js","./defaultTheme":"node_modules/@material-ui/core/styles/defaultTheme.js"}],"node_modules/@material-ui/core/styles/withStyles.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _styles = require("@material-ui/styles");
+
+var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
+
+function withStyles(stylesOrCreator, options) {
+  return (0, _styles.withStyles)(stylesOrCreator, (0, _extends2.default)({
+    defaultTheme: _defaultTheme.default
+  }, options));
+}
+
+var _default = withStyles;
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@material-ui/styles":"node_modules/@material-ui/styles/esm/index.js","./defaultTheme":"node_modules/@material-ui/core/styles/defaultTheme.js"}],"node_modules/@material-ui/core/Backdrop/Backdrop.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _clsx = _interopRequireDefault(require("clsx"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _Fade = _interopRequireDefault(require("../Fade"));
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    // Improve scrollable dialog support.
+    zIndex: -1,
+    position: 'fixed',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    right: 0,
+    bottom: 0,
+    top: 0,
+    left: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    WebkitTapHighlightColor: 'transparent'
+  },
+
+  /* Styles applied to the root element if `invisible={true}`. */
+  invisible: {
+    backgroundColor: 'transparent'
+  }
+};
+exports.styles = styles;
+var Backdrop = /*#__PURE__*/React.forwardRef(function Backdrop(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$invisible = props.invisible,
+      invisible = _props$invisible === void 0 ? false : _props$invisible,
+      open = props.open,
+      transitionDuration = props.transitionDuration,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? _Fade.default : _props$TransitionComp,
+      other = (0, _objectWithoutProperties2.default)(props, ["children", "classes", "className", "invisible", "open", "transitionDuration", "TransitionComponent"]);
+  return /*#__PURE__*/React.createElement(TransitionComponent, (0, _extends2.default)({
+    in: open,
+    timeout: transitionDuration
+  }, other), /*#__PURE__*/React.createElement("div", {
+    className: (0, _clsx.default)(classes.root, className, invisible && classes.invisible),
+    "aria-hidden": true,
+    ref: ref
+  }, children));
+});
+"development" !== "production" ? Backdrop.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+
+  /**
+   * The content of the component.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: _propTypes.default.object,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * If `true`, the backdrop is invisible.
+   * It can be used when rendering a popover or a custom select component.
+   */
+  invisible: _propTypes.default.bool,
+
+  /**
+   * If `true`, the backdrop is open.
+   */
+  open: _propTypes.default.bool.isRequired,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    appear: _propTypes.default.number,
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })])
+} : void 0;
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiBackdrop'
+})(Backdrop);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireWildcard":"node_modules/@babel/runtime/helpers/interopRequireWildcard.js","@babel/runtime/helpers/interopRequireDefault":"node_modules/@babel/runtime/helpers/interopRequireDefault.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/objectWithoutProperties":"node_modules/@babel/runtime/helpers/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","clsx":"node_modules/clsx/dist/clsx.m.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Fade":"node_modules/@material-ui/core/esm/Fade/index.js"}],"src/components/shared/Modal.tsx":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CustomModal = void 0;
+
+var react_1 = __importDefault(require("react"));
+
+var Fade_1 = __importDefault(require("@material-ui/core/Fade/Fade"));
+
+var Modal_1 = __importDefault(require("@material-ui/core/Modal/Modal"));
+
+var createStyles_1 = __importDefault(require("@material-ui/core/styles/createStyles"));
+
+var makeStyles_1 = __importDefault(require("@material-ui/core/styles/makeStyles"));
+
+var Backdrop_1 = __importDefault(require("@material-ui/core/Backdrop/Backdrop"));
+
+var icons_1 = __importDefault(require("../icons"));
+
+var useStyles = (0, makeStyles_1.default)(function (theme) {
+  return (0, createStyles_1.default)({
+    modal: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "2rem 1rem"
+    }
+  });
+});
+
+var CustomModal = function CustomModal(_a) {
+  var open = _a.open,
+      onClose = _a.onClose,
+      children = _a.children,
+      title = _a.title;
+  var classes = useStyles();
+  return react_1.default.createElement(Modal_1.default, {
+    className: classes.modal,
+    open: open,
+    onClose: onClose,
+    closeAfterTransition: true,
+    BackdropComponent: Backdrop_1.default,
+    BackdropProps: {
+      timeout: 500
+    },
+    disableEnforceFocus: true
+  }, react_1.default.createElement(Fade_1.default, {
+    in: open
+  }, react_1.default.createElement("div", {
+    className: "bg-white rounded-3xl border focus:outline-none"
+  }, react_1.default.createElement("div", {
+    className: "w-auto p-8"
+  }, react_1.default.createElement("div", {
+    className: "flex justify-between items-center mb-6"
+  }, react_1.default.createElement("p", {
+    className: "font-medium text-2xl  py-4 text-CustomNavyBlue"
+  }, title), react_1.default.createElement("div", {
+    className: "cursor-pointer bg-white border border-gray-100 inline-block p-2 rounded-full shadow-md hover:shadow-lg transition duration-300 ease-in-out",
+    onClick: onClose
+  }, react_1.default.createElement(icons_1.default, {
+    name: "cross",
+    className: "h-4 fill-current text-janttNavyBlue stroke-current stroke-1 "
+  }))), react_1.default.createElement("div", {
+    className: "overflow-auto",
+    style: {
+      maxHeight: "70vh"
+    }
+  }, children)))));
+};
+
+exports.CustomModal = CustomModal;
+},{"react":"node_modules/react/index.js","@material-ui/core/Fade/Fade":"node_modules/@material-ui/core/Fade/Fade.js","@material-ui/core/Modal/Modal":"node_modules/@material-ui/core/Modal/Modal.js","@material-ui/core/styles/createStyles":"node_modules/@material-ui/core/styles/createStyles.js","@material-ui/core/styles/makeStyles":"node_modules/@material-ui/core/styles/makeStyles.js","@material-ui/core/Backdrop/Backdrop":"node_modules/@material-ui/core/Backdrop/Backdrop.js","../icons":"src/components/icons/index.tsx"}],"src/components/App.tsx":[function(require,module,exports) {
+"use strict";
+
+var __assign = this && this.__assign || function () {
+  __assign = Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+      s = arguments[i];
+
+      for (var p in s) {
+        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+      }
+    }
+
+    return t;
+  };
+
+  return __assign.apply(this, arguments);
+};
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  var desc = Object.getOwnPropertyDescriptor(m, k);
+
+  if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+    desc = {
+      enumerable: true,
+      get: function get() {
+        return m[k];
+      }
+    };
+  }
+
+  Object.defineProperty(o, k2, desc);
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
 
 var __awaiter = this && this.__awaiter || function (thisArg, _arguments, P, generator) {
   function adopt(value) {
@@ -96883,7 +100861,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(require("react"));
+var react_1 = __importStar(require("react"));
 
 var react_2 = require("react");
 
@@ -96894,6 +100872,12 @@ var core_1 = require("@material-ui/core");
 var react_router_dom_1 = require("react-router-dom");
 
 var icons_1 = __importDefault(require("./icons"));
+
+var material_ui_popup_state_1 = __importStar(require("material-ui-popup-state"));
+
+var config_1 = require("../config");
+
+var Modal_1 = require("./shared/Modal");
 
 var App = function App() {
   var history = (0, react_router_dom_1.useHistory)();
@@ -96910,6 +100894,18 @@ var App = function App() {
       sortValue = _c[0],
       setSortValue = _c[1];
 
+  var _d = (0, react_1.useState)(),
+      removeUser = _d[0],
+      setRemoveUser = _d[1];
+
+  var _e = (0, react_1.useState)(false),
+      showRemoveModal = _e[0],
+      setShowRemoveModal = _e[1];
+
+  var handleRemoveModalOnClose = (0, react_1.useCallback)(function () {
+    setRemoveUser(undefined);
+    setShowRemoveModal(false);
+  }, []);
   var sortOptions = ["username", "name", "email"];
   (0, react_2.useEffect)(function () {
     loadUserData();
@@ -96920,7 +100916,7 @@ var App = function App() {
       return __generator(this, function (_a) {
         switch (_a.label) {
           case 0:
-            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/users").then(function (response) {
+            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/posts").then(function (response) {
               return setData(response.data);
             }).catch(function (error) {
               return console.log(error);
@@ -96933,8 +100929,6 @@ var App = function App() {
     });
   };
 
-  console.log("data", data);
-
   var handleReset = function handleReset() {
     loadUserData();
   };
@@ -96945,7 +100939,7 @@ var App = function App() {
         switch (_a.label) {
           case 0:
             e.preventDefault();
-            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/users?q=".concat(value)).then(function (response) {
+            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/posts?q=".concat(value)).then(function (response) {
               setData(response.data);
               setValue("");
             }).catch(function (error) {
@@ -96967,7 +100961,7 @@ var App = function App() {
           case 0:
             value = e.target.value;
             setSortValue(value);
-            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/users?_sort=".concat(value, "&_order=asc")).then(function (response) {
+            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/posts?_sort=".concat(value, "&_order=asc")).then(function (response) {
               setData(response.data);
             }).catch(function (error) {
               return console.log(error);
@@ -96985,7 +100979,7 @@ var App = function App() {
       return __generator(this, function (_a) {
         switch (_a.label) {
           case 0:
-            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/users?_status=".concat(value)).then(function (response) {
+            return [4, axios_1.default.get("https://jsonplaceholder.typicode.com/posts?_status=".concat(value)).then(function (response) {
               setData(response.data);
             }).catch(function (error) {
               return console.log(error);
@@ -96993,6 +100987,33 @@ var App = function App() {
 
           case 1:
             return [2, _a.sent()];
+        }
+      });
+    });
+  };
+
+  var handleRemoveUser = function handleRemoveUser(id) {
+    return __awaiter(void 0, void 0, void 0, function () {
+      var error_1;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            _a.trys.push([0, 2,, 3]);
+
+            console.log("id", id);
+            return [4, config_1.CustomApi.delete("/posts/".concat(removeUser.id))];
+
+          case 1:
+            _a.sent();
+
+            return [3, 3];
+
+          case 2:
+            error_1 = _a.sent();
+            return [3, 3];
+
+          case 3:
+            return [2];
         }
       });
     });
@@ -97048,48 +101069,74 @@ var App = function App() {
     className: ""
   }, react_1.default.createElement("span", {
     className: "table-container-1"
-  }, "User Name")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+  }, "Id")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
     className: "table-container-1"
-  }, "Name")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+  }, "User Id")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
     className: "table-container-1"
-  }, "Email")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+  }, "Title")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
     className: "table-container-1"
-  }, "Phone")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-    className: "table-container-1"
-  }, "city")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-    className: "table-container-1"
-  }, "Street")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-    className: "table-container-1"
-  }, "Company Name")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+  }, "Body")), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
     className: "table-container-1"
   }, "Action")))), data.length === 0 ? react_1.default.createElement(core_1.TableBody, null, react_1.default.createElement(core_1.TableRow, null, react_1.default.createElement(core_1.TableCell, null, "data not found"))) : data.map(function (item, id) {
     return react_1.default.createElement(core_1.TableBody, {
       key: id
     }, react_1.default.createElement(core_1.TableRow, null, react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
       className: "table-container"
-    }, item.username)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+    }, item.id)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
       className: "table-container"
-    }, item.name)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+    }, item.userId)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
       className: "table-container"
-    }, item.email)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
+    }, item.title)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
       className: "table-container"
-    }, item.phone)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-      className: "table-container"
-    }, item.address.city)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-      className: "table-container"
-    }, item.address.street)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("span", {
-      className: "table-container"
-    }, item.company.name)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement("div", {
-      className: "icon"
-    }, react_1.default.createElement(icons_1.default, {
-      name: "list",
-      className: ""
-    })))));
-  })))));
+    }, item.body)), react_1.default.createElement(core_1.TableCell, null, react_1.default.createElement(material_ui_popup_state_1.default, {
+      variant: "popover",
+      popupId: "popup-menu"
+    }, function (popupState) {
+      return react_1.default.createElement(react_1.default.Fragment, null, react_1.default.createElement(core_1.Button, __assign({}, (0, material_ui_popup_state_1.bindTrigger)(popupState)), react_1.default.createElement(icons_1.default, {
+        name: "list",
+        className: "icon"
+      })), react_1.default.createElement(core_1.Menu, __assign({}, (0, material_ui_popup_state_1.bindMenu)(popupState)), react_1.default.createElement(core_1.MenuItem, null, "Edit user"), react_1.default.createElement(core_1.MenuItem, {
+        onClick: function onClick() {
+          return __awaiter(void 0, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+              setRemoveUser(item);
+              setShowRemoveModal(true);
+              popupState.close();
+              return [2];
+            });
+          });
+        }
+      }, "Remove user")));
+    }))));
+  })))), removeUser && react_1.default.createElement(Modal_1.CustomModal, {
+    open: showRemoveModal,
+    onClose: handleRemoveModalOnClose,
+    title: "Remove User"
+  }, react_1.default.createElement("div", {
+    className: "w-96"
+  }, react_1.default.createElement("h1", null, "Are you sure you want to remove", " ", react_1.default.createElement("span", {
+    className: "text-primary font-semibold"
+  }, removeUser.id), " "), react_1.default.createElement("div", {
+    className: "flex justify-end pt-8"
+  }, react_1.default.createElement("button", {
+    onClick: handleRemoveModalOnClose,
+    className: "border px-10 py-2 text-black  mr-4 rounded-md"
+  }, "No"), react_1.default.createElement("button", {
+    onClick: function onClick() {
+      return __awaiter(void 0, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+          handleRemoveUser(removeUser.id);
+          handleRemoveModalOnClose();
+          return [2];
+        });
+      });
+    },
+    className: "border px-10 py-2 text-white bg-janttBlue rounded-md"
+  }, "Yes")))));
 };
 
 exports.default = App;
-},{"react":"node_modules/react/index.js","axios":"node_modules/axios/index.js","@material-ui/core":"node_modules/@material-ui/core/esm/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./icons":"src/components/icons/index.tsx"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","axios":"node_modules/axios/index.js","@material-ui/core":"node_modules/@material-ui/core/esm/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./icons":"src/components/icons/index.tsx","material-ui-popup-state":"node_modules/material-ui-popup-state/index.js","../config":"src/config/index.ts","./shared/Modal":"src/components/shared/Modal.tsx"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -97252,7 +101299,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54236" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49857" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

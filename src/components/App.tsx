@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import {
@@ -16,6 +16,8 @@ import { useHistory } from "react-router-dom";
 import CustomIcon from "./icons";
 import { IUserResponse } from "../types";
 import PopupState, { bindMenu, bindTrigger } from "material-ui-popup-state";
+import { CustomApi } from "../config";
+import { CustomModal } from "./shared/Modal";
 
 interface IUserList {
 	data: IUserResponse[];
@@ -27,52 +29,65 @@ const App = () => {
 	const [data, setData] = React.useState([]);
 	const [value, setValue] = React.useState("");
 	const [sortValue, setSortValue] = React.useState("");
+	const [removeUser, setRemoveUser] = useState<IUserResponse>();
+	const [showRemoveModal, setShowRemoveModal] = useState(false);
 
+	const handleRemoveModalOnClose = useCallback(() => {
+		setRemoveUser(undefined);
+		setShowRemoveModal(false);
+	}, []);
 	const sortOptions = ["username", "name", "email"];
+
 	useEffect(() => {
 		loadUserData();
 	}, []);
 
 	const loadUserData = async () => {
 		return await axios
-			.get("https://jsonplaceholder.typicode.com/users")
+			.get("https://jsonplaceholder.typicode.com/posts")
 			.then((response) => setData(response.data))
 			.catch((error) => console.log(error));
 	};
-	console.log("data", data);
 
 	const handleReset = () => {
 		loadUserData();
 	};
-	const handleSearch = async (e) => {
+	const handleSearch = async (e: any) => {
 		e.preventDefault();
 		return await axios
-			.get(`https://jsonplaceholder.typicode.com/users?q=${value}`)
+			.get(`https://jsonplaceholder.typicode.com/posts?q=${value}`)
 			.then((response) => {
 				setData(response.data);
 				setValue("");
 			})
 			.catch((error) => console.log(error));
 	};
-	const handleSort = async (e) => {
+	const handleSort = async (e: any) => {
 		let value = e.target.value;
 		setSortValue(value);
 		return await axios
 			.get(
-				`https://jsonplaceholder.typicode.com/users?_sort=${value}&_order=asc`
+				`https://jsonplaceholder.typicode.com/posts?_sort=${value}&_order=asc`
 			)
 			.then((response) => {
 				setData(response.data);
 			})
 			.catch((error) => console.log(error));
 	};
-	const handleFilter = async (value) => {
+	const handleFilter = async (value: any) => {
 		return await axios
-			.get(`https://jsonplaceholder.typicode.com/users?_status=${value}`)
+			.get(`https://jsonplaceholder.typicode.com/posts?_status=${value}`)
 			.then((response) => {
 				setData(response.data);
 			})
 			.catch((error) => console.log(error));
+	};
+	// delete user
+	const handleRemoveUser = async (id: number) => {
+		try {
+			console.log("id", id);
+			await CustomApi.delete(`/posts/${removeUser.id}`);
+		} catch (error) {}
 	};
 
 	return (
@@ -129,30 +144,17 @@ const App = () => {
 						<TableHead>
 							<TableRow>
 								<TableCell className="">
-									<span className="table-container-1">User Name</span>
+									<span className="table-container-1">Id</span>
 								</TableCell>
 								<TableCell>
-									<span className="table-container-1">Name</span>
+									<span className="table-container-1">User Id</span>
 								</TableCell>
 								<TableCell>
-									<span className="table-container-1">Email</span>
+									<span className="table-container-1">Title</span>
 								</TableCell>
 								<TableCell>
-									<span className="table-container-1">Phone</span>
+									<span className="table-container-1">Body</span>
 								</TableCell>
-								<TableCell>
-									<span className="table-container-1">city</span>
-								</TableCell>
-								<TableCell>
-									<span className="table-container-1">Street</span>
-								</TableCell>
-								<TableCell>
-									<span className="table-container-1">Company Name</span>
-								</TableCell>
-
-								{/* <TableCell>
-									<span className="table-container-1">Status</span>
-								</TableCell> */}
 
 								<TableCell>
 									<span className="table-container-1">Action</span>
@@ -170,36 +172,41 @@ const App = () => {
 								<TableBody key={id}>
 									<TableRow>
 										<TableCell>
-											<span className="table-container">{item.username}</span>
+											<span className="table-container">{item.id}</span>
 										</TableCell>
 										<TableCell>
-											<span className="table-container">{item.name}</span>
+											<span className="table-container">{item.userId}</span>
 										</TableCell>
 										<TableCell>
-											<span className="table-container">{item.email}</span>
+											<span className="table-container">{item.title}</span>
 										</TableCell>
 										<TableCell>
-											<span className="table-container">{item.phone}</span>
+											<span className="table-container">{item.body}</span>
 										</TableCell>
+
 										<TableCell>
-											<span className="table-container">
-												{item.address.city}
-											</span>
-										</TableCell>
-										<TableCell>
-											<span className="table-container">
-												{item.address.street}
-											</span>
-										</TableCell>
-										<TableCell>
-											<span className="table-container">
-												{item.company.name}
-											</span>
-										</TableCell>
-										<TableCell>
-											<div className="icon">
-												<CustomIcon name="list" className="" />
-											</div>
+											<PopupState variant="popover" popupId={"popup-menu"}>
+												{(popupState) => (
+													<React.Fragment>
+														<Button {...bindTrigger(popupState)}>
+															<CustomIcon name="list" className="icon" />
+														</Button>
+														<Menu {...bindMenu(popupState)}>
+															<MenuItem>Edit user</MenuItem>
+
+															<MenuItem
+																onClick={async () => {
+																	setRemoveUser(item);
+																	setShowRemoveModal(true);
+																	popupState.close();
+																}}
+															>
+																Remove user
+															</MenuItem>
+														</Menu>
+													</React.Fragment>
+												)}
+											</PopupState>
 										</TableCell>
 									</TableRow>
 								</TableBody>
@@ -208,6 +215,39 @@ const App = () => {
 					</Table>
 				</TableContainer>
 			</div>
+			{removeUser && (
+				<CustomModal
+					open={showRemoveModal}
+					onClose={handleRemoveModalOnClose}
+					title="Remove User"
+				>
+					<div className="w-96">
+						<h1>
+							Are you sure you want to remove{" "}
+							<span className="text-primary font-semibold">
+								{removeUser.id}
+							</span>{" "}
+						</h1>
+						<div className="flex justify-end pt-8">
+							<button
+								onClick={handleRemoveModalOnClose}
+								className="border px-10 py-2 text-black  mr-4 rounded-md"
+							>
+								No
+							</button>
+							<button
+								onClick={async () => {
+									handleRemoveUser(removeUser.id);
+									handleRemoveModalOnClose();
+								}}
+								className="border px-10 py-2 text-white bg-janttBlue rounded-md"
+							>
+								Yes
+							</button>
+						</div>
+					</div>
+				</CustomModal>
+			)}
 		</div>
 	);
 };
