@@ -1,0 +1,180 @@
+$activeBtnClr: rgb(24, 236, 95);
+
+$inactiveBtnClr: rgb(236, 51, 51);
+
+$background-from: #984d38;
+$background-to: #181e41;
+$text-color: #fff;
+
+body {
+	color: $text-color;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.3rem;
+	background: linear-gradient(
+		113.49deg,
+		$background-from -10.3%,
+		$background-to 70.12%
+	);
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.activeButton {
+	background-image: linear-gradient(
+		to right,
+		#16a085 0%,
+		#f4d03f 51%,
+		#16a085 100%
+	);
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	&:hover {
+		color: yellow;
+		background-position: right center; /* change the direction of the change here */
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.inactiveButton {
+	background-image: linear-gradient(
+		to right,
+		#e52d27 0%,
+		#b31217 51%,
+		#e52d27 100%
+	);
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.btn-grad-search {
+	background-image: linear-gradient(
+		to right,
+		#cc95c0 0%,
+		#dbd4b4 51%,
+		#cc95c0 100%
+	);
+	border: none;
+	color: black;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	&:hover {
+		background-position: right center; /* change the direction of the change here */
+		color: black;
+		text-decoration: none;
+	}
+}
+
+.btn-grad {
+	background-image: linear-gradient(
+		to right,
+		#aa076b 0%,
+		#61045f 51%,
+		#aa076b 100%
+	);
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	&:hover {
+		background-position: right center; /* change the direction of the change here */
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.btn-grad-reset {
+	background-image: linear-gradient(
+		to right,
+		#1a2980 0%,
+		#26d0ce 51%,
+		#1a2980 100%
+	);
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	&:hover {
+		background-position: right center; /* change the direction of the change here */
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.alignment {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@media (max-width: 767px) {
+	.alignment {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+.table-container-1 {
+	font-size: large;
+	color: $text-color;
+}
+.table-container {
+	color: $text-color;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	&:hover {
+		cursor: pointer;
+	}
+}
